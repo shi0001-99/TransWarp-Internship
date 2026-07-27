@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: transalpha-scorer
+Version: 1.1.0
+Summary: TransAlpha小组个股多维度融合打分系统
+Requires-Python: >=3.8
+Requires-Dist: akshare>=1.18.0
+Requires-Dist: baostock>=0.9.0
+Requires-Dist: efinance>=0.5.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: pandas>=1.4.0
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: openpyxl>=3.0.0
