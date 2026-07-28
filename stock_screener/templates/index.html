@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 A股量化选股系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        /* 头部 */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .header .controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        .btn-secondary:hover:not(:disabled) {
+            background: #e0e0e0;
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        /* 状态卡片 */
+        .status-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .status-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .status-card .label {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        
+        .status-card .value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #333;
+        }
+        
+        .status-card .value.success {
+            color: #10b981;
+        }
+        
+        .status-card .value.warning {
+            color: #f59e0b;
+        }
+        
+        .status-card .value.error {
+            color: #ef4444;
+        }
+        
+        /* 进度条 */
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+            width: 0;
+        }
+        
+        /* 结果表格 */
+        .results-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .results-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .results-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        .results-table th:first-child {
+            border-radius: 10px 0 0 0;
+        }
+        
+        .results-table th:last-child {
+            border-radius: 0 10px 0 0;
+        }
+        
+        .results-table td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+        }
+        
+        .results-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .results-table .rank {
+            font-weight: 700;
+            font-size: 1.2rem;
+            width: 50px;
+        }
+        
+        .results-table .rank.top-1 {
+            color: #ffd700;
+        }
+        
+        .results-table .rank.top-2 {
+            color: #c0c0c0;
+        }
+        
+        .results-table .rank.top-3 {
+            color: #cd7f32;
+        }
+        
+        .stock-name {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .stock-code {
+            color: #888;
+            font-size: 0.85rem;
+        }
+        
+        .score-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .score-excellent {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .score-good {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .score-neutral {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .score-weak {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .price-up {
+            color: #ef4444;
+            font-weight: 600;
+        }
+        
+        .price-down {
+            color: #10b981;
+            font-weight: 600;
+        }
+        
+        .advice {
+            font-size: 0.85rem;
+            color: #666;
+            max-width: 250px;
+        }
+        
+        .advice.positive {
+            color: #10b981;
+        }
+        
+        .advice.warning {
+            color: #f59e0b;
+        }
+        
+        .advice.negative {
+            color: #ef4444;
+        }
+        
+        /* 详情模态框 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .modal-header h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        
+        .modal-close {
+            background: #f0f0f0;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        
+        .detail-item {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .detail-item .label {
+            color: #888;
+            font-size: 0.85rem;
+        }
+        
+        .detail-item .value {
+            color: #333;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+        
+        .score-breakdown {
+            margin-top: 20px;
+        }
+        
+        .score-breakdown h4 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .score-bar {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+        
+        .score-bar .name {
+            width: 100px;
+            color: #666;
+        }
+        
+        .score-bar .bar {
+            flex: 1;
+            height: 20px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 0 10px;
+        }
+        
+        .score-bar .bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 10px;
+        }
+        
+        .score-bar .score {
+            width: 60px;
+            text-align: right;
+            font-weight: 600;
+        }
+        
+        /* 加载动画 */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* 空状态 */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #888;
+        }
+        
+        .empty-state .icon {
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+        
+        .empty-state .text {
+            font-size: 1.2rem;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .results-table {
+                font-size: 0.85rem;
+            }
+            
+            .results-table th,
+            .results-table td {
+                padding: 10px 8px;
+            }
+            
+            .detail-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .advice {
+                max-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部控制区 -->
+        <div class="header">
+            <h1>🚀 A股量化选股系统</h1>
+            <p class="subtitle">基于基本面+技术面多维度评分 · 每日自动筛选Top10潜力股票</p>
+            
+            <div class="controls">
+                <button class="btn btn-primary" id="screenBtn" onclick="startScreening()">
+                    🔍 开始选股
+                </button>
+                <button class="btn btn-secondary" id="refreshBtn" onclick="refreshResults()">
+                    🔄 刷新结果
+                </button>
+                <button class="btn btn-secondary" id="scheduleBtn" onclick="toggleScheduler()">
+                    ⏰ <span id="scheduleText">启动定时任务</span>
+                </button>
+                <button class="btn btn-secondary" onclick="exportResults()">
+                    📥 导出数据
+                </button>
+            </div>
+        </div>
+        
+        <!-- 状态卡片 -->
+        <div class="status-cards">
+            <div class="status-card">
+                <div class="label">最后更新时间</div>
+                <div class="value" id="lastUpdate">--</div>
+            </div>
+            <div class="status-card">
+                <div class="label">筛选状态</div>
+                <div class="value" id="screenStatus">待开始</div>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+            <div class="status-card">
+                <div class="label">定时任务</div>
+                <div class="value" id="schedulerStatus">未启动</div>
+            </div>
+            <div class="status-card">
+                <div class="label">选出股票数</div>
+                <div class="value" id="stockCount">--</div>
+            </div>
+        </div>
+        
+        <!-- 结果表格 -->
+        <div class="results-section">
+            <h2>📊 Top 10 潜力股票</h2>
+            <div id="resultsContainer">
+                <div class="empty-state">
+                    <div class="icon">📈</div>
+                    <div class="text">点击"开始选股"按钮启动分析</div>
+                    <div class="text" style="margin-top: 10px; font-size: 0.9rem;">首次运行需要约 5-10 分钟</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 详情模态框 -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="detailTitle">股票详情</h3>
+                <button class="modal-close" onclick="closeModal()">✕</button>
+            </div>
+            <div id="detailContent"></div>
+        </div>
+    </div>
+    
+    <script>
+        let isRunning = false;
+        let schedulerRunning = false;
+        let statusPolling = null;
+        
+        // 启动选股
+        async function startScreening() {
+            if (isRunning) return;
+            
+            isRunning = true;
+            document.getElementById('screenBtn').disabled = true;
+            document.getElementById('screenStatus').textContent = '运行中...';
+            document.getElementById('screenStatus').className = 'value warning';
+            
+            try {
+                const response = await fetch('/api/screen', { method: 'POST' });
+                const data = await response.json();
+                
+                if (data.success) {
+                    // 开始轮询状态
+                    startStatusPolling();
+                } else {
+                    alert(data.message);
+                }
+            } catch (e) {
+                alert('请求失败: ' + e.message);
+            }
+        }
+        
+        // 轮询状态
+        function startStatusPolling() {
+            if (statusPolling) clearInterval(statusPolling);
+            
+            statusPolling = setInterval(async () => {
+                try {
+                    const response = await fetch('/api/status');
+                    const data = await response.json();
+                    const status = data.data;
+                    
+                    // 更新UI
+                    document.getElementById('screenStatus').textContent = 
+                        status.running ? '筛选中...' : '完成';
+                    document.getElementById('screenStatus').className = 
+                        status.running ? 'value warning' : 'value success';
+                    
+                    document.getElementById('progressFill').style.width = 
+                        status.running ? '50%' : '100%';
+                    
+                    if (status.message) {
+                        console.log(status.message);
+                    }
+                    
+                    if (!status.running) {
+                        // 筛选完成
+                        clearInterval(statusPolling);
+                        isRunning = false;
+                        document.getElementById('screenBtn').disabled = false;
+                        loadResults();
+                    }
+                } catch (e) {
+                    console.error(e);
+                }
+            }, 2000);
+        }
+        
+        // 加载结果
+        async function loadResults() {
+            try {
+                const response = await fetch('/api/results');
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayResults(data.data);
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+        
+        // 刷新结果
+        async function refreshResults() {
+            await loadResults();
+        }
+        
+        // 显示结果
+        function displayResults(summary) {
+            document.getElementById('lastUpdate').textContent = 
+                summary.last_update || '--';
+            document.getElementById('stockCount').textContent = 
+                summary.total_results || 0;
+            
+            const container = document.getElementById('resultsContainer');
+            const stocks = summary.top_stocks;
+            
+            if (!stocks || stocks.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">🔍</div>
+                        <div class="text">暂无选股结果，请先运行选股</div>
+                    </div>
+                `;
+                return;
+            }
+            
+            // 创建表格
+            let html = `
+                <div style="overflow-x: auto;">
+                <table class="results-table">
+                    <thead>
+                        <tr>
+                            <th>排名</th>
+                            <th>股票</th>
+                            <th>现价</th>
+                            <th>涨跌</th>
+                            <th>行业</th>
+                            <th>综合得分</th>
+                            <th>评级</th>
+                            <th>投资建议</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            stocks.forEach((stock, i) => {
+                const rankClass = i === 0 ? 'top-1' : i === 1 ? 'top-2' : i === 2 ? 'top-3' : '';
+                const changeClass = stock.change_pct >= 0 ? 'price-up' : 'price-down';
+                const scoreClass = stock.total_score >= 70 ? 'score-excellent' : 
+                                   stock.total_score >= 60 ? 'score-good' : 
+                                   stock.total_score >= 50 ? 'score-neutral' : 'score-weak';
+                
+                const adviceClass = stock.advice.includes('积极') ? 'positive' : 
+                                   stock.advice.includes('谨慎') ? 'warning' : 'negative';
+                
+                html += `
+                    <tr>
+                        <td class="rank ${rankClass}">${i + 1}</td>
+                        <td>
+                            <div class="stock-name">${stock.name}</div>
+                            <div class="stock-code">${stock.code}</div>
+                        </td>
+                        <td>¥${stock.price.toFixed(2)}</td>
+                        <td class="${changeClass}">
+                            ${stock.change_pct >= 0 ? '+' : ''}${stock.change_pct.toFixed(2)}%
+                        </td>
+                        <td>${stock.industry || '-'}</td>
+                        <td><span class="score-badge ${scoreClass}">${stock.total_score.toFixed(1)}</span></td>
+                        <td>${stock.grade}</td>
+                        <td class="advice ${adviceClass}">${stock.advice}</td>
+                        <td>
+                            <button class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;"
+                                    onclick="showDetail('${stock.code}')">
+                                详情
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            });
+            
+            html += `
+                    </tbody>
+                </table>
+                </div>
+            `;
+            
+            container.innerHTML = html;
+        }
+        
+        // 显示详情
+        async function showDetail(code) {
+            try {
+                const response = await fetch('/api/stock_detail/' + code);
+                const data = await response.json();
+                
+                if (data.success) {
+                    const stock = data.data;
+                    
+                    document.getElementById('detailTitle').textContent = 
+                        `${stock.name} (${stock.code}) 详情`;
+                    
+                    // 构建详情内容
+                    let html = `
+                        <div class="detail-grid">
+                            <div class="detail-item">
+                                <div class="label">现价</div>
+                                <div class="value">¥${stock.price.toFixed(2)}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="label">涨跌幅</div>
+                                <div class="value ${stock.change_pct >= 0 ? 'price-up' : 'price-down'}">
+                                    ${stock.change_pct >= 0 ? '+' : ''}${stock.change_pct.toFixed(2)}%
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="label">市盈率(动态)</div>
+                                <div class="value">${stock.pe || '-'}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="label">市净率</div>
+                                <div class="value">${stock.pb || '-'}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="label">换手率</div>
+                                <div class="value">${stock.turnover_rate || '-'}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="label">价格位置</div>
+                                <div class="value">${stock.price_position || '-'}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="label">均线排列</div>
+                                <div class="value">${getAlignmentText(stock.ma_alignment)}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="label">行业</div>
+                                <div class="value">${stock.industry || '-'}</div>
+                            </div>
+                        </div>
+                        
+                        <div style="margin-top: 20px; text-align: center;">
+                            <h4 style="color: #333; margin-bottom: 10px;">综合评分</h4>
+                            <div style="font-size: 3rem; font-weight: 700; color: #667eea;">
+                                ${stock.total_score.toFixed(1)}
+                            </div>
+                            <div style="color: #666; margin-top: 5px;">${stock.grade}</div>
+                            <div style="margin-top: 15px; padding: 12px; background: #f8f9fa; border-radius: 8px;">
+                                <strong>投资建议:</strong> ${stock.advice}
+                            </div>
+                        </div>
+                    `;
+                    
+                    // 添加得分明细
+                    if (stock.score_details && stock.score_details.length > 0) {
+                        html += '<div class="score-breakdown"><h4>📊 得分明细</h4>';
+                        stock.score_details.forEach(item => {
+                            const barWidth = (item.score / 100) * 100;
+                            html += `
+                                <div class="score-bar">
+                                    <span class="name">${item.name}</span>
+                                    <div class="bar">
+                                        <div class="bar-fill" style="width: ${barWidth}%"></div>
+                                    </div>
+                                    <span class="score">${item.score.toFixed(0)}</span>
+                                </div>
+                            `;
+                        });
+                        html += '</div>';
+                    }
+                    
+                    document.getElementById('detailContent').innerHTML = html;
+                    document.getElementById('detailModal').classList.add('active');
+                }
+            } catch (e) {
+                alert('获取详情失败');
+            }
+        }
+        
+        // 获取均线排列文字
+        function getAlignmentText(alignment) {
+            if (!alignment) return '-';
+            const map = {
+                'bullish': '🟢 多头排列',
+                'bearish': '🔴 空头排列',
+                'semi_bullish': '🟡 半多头',
+                'neutral': '⚪ 中性',
+                'unknown': '❓ 未知'
+            };
+            return map[alignment.alignment] || '-';
+        }
+        
+        // 关闭模态框
+        function closeModal() {
+            document.getElementById('detailModal').classList.remove('active');
+        }
+        
+        // 切换定时任务
+        async function toggleScheduler() {
+            try {
+                const statusRes = await fetch('/api/scheduler/status');
+                const statusData = await statusRes.json();
+                
+                if (statusData.running) {
+                    await fetch('/api/scheduler/stop', { method: 'POST' });
+                    schedulerRunning = false;
+                    document.getElementById('schedulerStatus').textContent = '未启动';
+                    document.getElementById('scheduleText').textContent = '启动定时任务';
+                } else {
+                    const startRes = await fetch('/api/scheduler/start', { method: 'POST' });
+                    const startData = await startRes.json();
+                    schedulerRunning = true;
+                    document.getElementById('schedulerStatus').textContent = '运行中';
+                    document.getElementById('scheduleText').textContent = '停止定时任务';
+                    alert('定时任务已启动！将在每个交易日 9:35 自动运行');
+                }
+            } catch (e) {
+                alert('操作失败: ' + e.message);
+            }
+        }
+        
+        // 导出结果
+        async function exportResults() {
+            try {
+                const response = await fetch('/api/export');
+                const data = await response.json();
+                
+                if (data.success) {
+                    // 下载JSON文件
+                    const blob = new Blob([JSON.stringify(data.data, null, 2)], {
+                        type: 'application/json'
+                    });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `stock_screener_${new Date().toISOString().slice(0,10)}.json`;
+                    a.click();
+                    URL.revokeObjectURL(url);
+                }
+            } catch (e) {
+                alert('导出失败: ' + e.message);
+            }
+        }
+        
+        // 页面加载时自动加载结果
+        window.addEventListener('load', () => {
+            loadResults();
+            
+            // 检查定时任务状态
+            fetch('/api/scheduler/status')
+                .then(res => res.json())
+                .then(data => {
+                    if (data.running) {
+                        schedulerRunning = true;
+                        document.getElementById('schedulerStatus').textContent = '运行中';
+                        document.getElementById('scheduleText').textContent = '停止定时任务';
+                    }
+                });
+        });
+    </script>
+</body>
+</html>
