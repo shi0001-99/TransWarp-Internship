@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock Monitor - 智能股票监控仪表盘</title>
+<link rel="stylesheet" href="/static/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <span class="logo-icon">📊</span>
+      <span class="logo-text">Stock Monitor</span>
+    </div>
+    <nav class="nav">
+      <a href="#" class="nav-item active" data-view="dashboard">
+        <span class="nav-icon">🏠</span><span>仪表盘</span>
+      </a>
+      <a href="#" class="nav-item" data-view="alerts">
+        <span class="nav-icon">🔔</span><span>预警中心</span>
+        <span class="badge" id="alertBadge">0</span>
+      </a>
+      <a href="#" class="nav-item" data-view="logs">
+        <span class="nav-icon">📋</span><span>运行日志</span>
+      </a>
+      <a href="#" class="nav-item" data-view="settings">
+        <span class="nav-icon">⚙️</span><span>监控配置</span>
+      </a>
+    </nav>
+    <div class="sidebar-daemon">
+      <div class="daemon-panel">
+        <div class="daemon-panel-header">
+          <span class="daemon-panel-icon">🤖</span>
+          <span class="daemon-panel-title">后台监控</span>
+        </div>
+        <div class="daemon-panel-status" id="daemonStatus">
+          <span class="status-dot"></span>
+          <span class="status-text">检查中...</span>
+        </div>
+        <div class="daemon-panel-controls">
+          <button class="btn btn-success btn-daemon" id="startDaemonBtn">
+            <span class="btn-icon">▶️</span>启动
+          </button>
+          <button class="btn btn-danger btn-daemon" id="stopDaemonBtn">
+            <span class="btn-icon">⏹️</span>停止
+          </button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <h1 id="pageTitle">仪表盘</h1>
+        <span class="last-update" id="lastUpdate">--</span>
+      </div>
+      <div class="header-right">
+        <div class="refresh-indicator">
+          <span class="refresh-icon">🔄</span>
+          <span>自动刷新</span>
+          <span class="refresh-interval">10s</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Dashboard View -->
+    <section class="view" id="view-dashboard">
+      <!-- Summary Cards -->
+      <div class="summary-cards">
+        <div class="card card-total clickable" data-target="holdings" title="点击查看持仓详情">
+          <div class="card-icon">📈</div>
+          <div class="card-info">
+            <div class="card-value" id="totalCount">0</div>
+            <div class="card-label">监控标的</div>
+          </div>
+          <div class="card-arrow">→</div>
+        </div>
+        <div class="card card-alert clickable" data-target="alerts" title="点击查看预警中心（全部）">
+          <div class="card-icon">⚠️</div>
+          <div class="card-info">
+            <div class="card-value" id="alertCount">0</div>
+            <div class="card-label">活跃预警</div>
+          </div>
+          <div class="card-arrow">→</div>
+        </div>
+        <div class="card card-critical clickable" data-target="critical-alerts" title="点击查看紧急预警">
+          <div class="card-icon">🚨</div>
+          <div class="card-info">
+            <div class="card-value" id="criticalCount">0</div>
+            <div class="card-label">紧急预警</div>
+          </div>
+          <div class="card-arrow">→</div>
+        </div>
+      </div>
+
+      <!-- Chart Section -->
+      <div class="chart-section">
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3>📊 标的盈亏分布</h3>
+          </div>
+          <div class="chart-container" id="pieChart"></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3>📈 实时涨跌幅</h3>
+          </div>
+          <div class="chart-container" id="barChart"></div>
+        </div>
+      </div>
+
+      <!-- Stock Cards Grid -->
+      <h3 class="section-title">持仓监控</h3>
+      <div class="stock-grid" id="stockGrid">
+        <!-- Stock cards will be inserted here -->
+      </div>
+    </section>
+
+    <!-- Alerts View -->
+    <section class="view hidden" id="view-alerts">
+      <div class="filter-bar">
+        <div class="filter-group">
+          <button class="filter-btn active" data-level="all">全部</button>
+          <button class="filter-btn" data-level="critical">🚨 紧急</button>
+          <button class="filter-btn" data-level="warning">⚠️ 警告</button>
+          <button class="filter-btn" data-level="info">📢 提醒</button>
+        </div>
+      </div>
+      <div class="alerts-list" id="alertsList">
+        <!-- Alert items -->
+      </div>
+    </section>
+
+    <!-- Logs View -->
+    <section class="view hidden" id="view-logs">
+      <div class="log-tabs">
+        <button class="tab-btn active" data-log-type="run">运行日志</button>
+        <button class="tab-btn" data-log-type="alert">预警日志</button>
+      </div>
+      <div class="log-viewer" id="logViewer">
+        <!-- Log entries -->
+      </div>
+    </section>
+
+    <!-- Settings View -->
+    <section class="view hidden" id="view-settings">
+      <div class="settings-toolbar">
+        <div class="settings-search">
+          <input type="text" id="stockSearch" placeholder="输入股票代码或名称搜索..." />
+          <div class="search-results" id="searchResults"></div>
+        </div>
+        <button class="btn btn-primary" id="addStockBtn">
+          <span class="btn-icon">➕</span>新增标的
+        </button>
+      </div>
+      <div class="settings-container" id="settingsContainer">
+        <!-- Settings content -->
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- Toast -->
+<div class="toast-container" id="toastContainer"></div>
+
+<!-- Stock Detail Modal -->
+<div class="modal" id="stockModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 id="modalTitle">股票详情</h3>
+      <button class="modal-close" id="modalClose">&times;</button>
+    </div>
+    <div class="modal-body" id="modalBody">
+      <!-- Stock detail content -->
+    </div>
+  </div>
+</div>
+
+<!-- Stock Edit Modal -->
+<div class="modal" id="editModal">
+  <div class="modal-content modal-lg">
+    <div class="modal-header">
+      <h3 id="editModalTitle">编辑标的</h3>
+      <button class="modal-close" id="editModalClose">&times;</button>
+    </div>
+    <div class="modal-body" id="editModalBody">
+      <!-- Edit form content -->
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-danger" id="deleteStockBtn" style="display:none;">🗑️ 删除</button>
+      <div style="flex:1;"></div>
+      <button class="btn" id="cancelEditBtn">取消</button>
+      <button class="btn btn-primary" id="saveEditBtn">💾 保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Confirm Dialog -->
+<div class="modal" id="confirmModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>确认操作</h3>
+    </div>
+    <div class="modal-body">
+      <p id="confirmMessage">确定执行此操作？</p>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" id="confirmCancel">取消</button>
+      <button class="btn btn-danger" id="confirmOk">确认</button>
+    </div>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
