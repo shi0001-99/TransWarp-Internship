@@ -1,0 +1,801 @@
+{
+  "timestamp": "2026-08-07 10:34:32",
+  "results": [
+    {
+      "stock_code": "600961",
+      "stock_name": "株冶集团",
+      "current_price": 27.85,
+      "signal_direction": "看空",
+      "signal_score": 0.39,
+      "score": 39,
+      "prediction": {
+        "predicted_price": 26.66,
+        "predicted_return": -4.28,
+        "up_probability": 48.3,
+        "confidence": 1.2
+      },
+      "patterns": [
+        {
+          "name": "倒V反转",
+          "type": "bearish"
+        },
+        {
+          "name": "跌破支撑位28.22",
+          "type": "bearish"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 28.42,
+          "prev_ma": 27.28,
+          "trend": "up",
+          "slope": 4.16
+        },
+        "ma10": {
+          "ma": 27.85,
+          "prev_ma": 28.59,
+          "trend": "down",
+          "slope": -2.58
+        },
+        "ma20": {
+          "ma": 28.22,
+          "prev_ma": 28.1,
+          "trend": "flat",
+          "slope": 0.43
+        },
+        "ma60": {
+          "ma": 28.0,
+          "prev_ma": 27.59,
+          "trend": "up",
+          "slope": 1.51
+        },
+        "ma_alignment": {
+          "alignment": "neutral",
+          "score": 50,
+          "price_above_all": false
+        },
+        "rsi": 50.5,
+        "volume_ratio": {
+          "volume_ratio": 1.28,
+          "trend": "slightly_high"
+        },
+        "vol_trend": {
+          "trend": "down_or_flat",
+          "consecutive_up": false,
+          "volumes": [
+            4552329,
+            4893037,
+            1271635
+          ]
+        },
+        "tail_pct": 3.26,
+        "price_position": 51.4,
+        "pct_5d": -9.34,
+        "pct_20d": -10.22
+      },
+      "bull_signals": [],
+      "bear_signals": [
+        "股价低于MA20",
+        "倒V反转",
+        "跌破支撑位28.22"
+      ]
+    },
+    {
+      "stock_code": "002645",
+      "stock_name": "华宏科技",
+      "current_price": 19.29,
+      "signal_direction": "看空",
+      "signal_score": 0.3,
+      "score": 30,
+      "prediction": {
+        "predicted_price": 19.46,
+        "predicted_return": 0.86,
+        "up_probability": 50.3,
+        "confidence": 0.2
+      },
+      "patterns": [
+        {
+          "name": "倒V反转",
+          "type": "bearish"
+        },
+        {
+          "name": "突破压力位19.16",
+          "type": "bullish"
+        },
+        {
+          "name": "反弹蓄势",
+          "type": "neutral"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 18.92,
+          "prev_ma": 19.14,
+          "trend": "down",
+          "slope": -1.14
+        },
+        "ma10": {
+          "ma": 19.03,
+          "prev_ma": 19.3,
+          "trend": "down",
+          "slope": -1.37
+        },
+        "ma20": {
+          "ma": 19.16,
+          "prev_ma": 19.49,
+          "trend": "down",
+          "slope": -1.67
+        },
+        "ma60": {
+          "ma": 19.34,
+          "prev_ma": 19.04,
+          "trend": "up",
+          "slope": 1.61
+        },
+        "ma_alignment": {
+          "alignment": "bearish",
+          "score": 0,
+          "price_above_all": false
+        },
+        "rsi": 49.2,
+        "volume_ratio": {
+          "volume_ratio": 0.78,
+          "trend": "normal"
+        },
+        "vol_trend": {
+          "trend": "down_or_flat",
+          "consecutive_up": false,
+          "volumes": [
+            4229703,
+            2193888,
+            2814858
+          ]
+        },
+        "tail_pct": 3.99,
+        "price_position": 49.0,
+        "pct_5d": 7.7,
+        "pct_20d": 1.81
+      },
+      "bull_signals": [
+        "股价站上MA20",
+        "突破压力位19.16"
+      ],
+      "bear_signals": [
+        "均线空头排列",
+        "MA20下行",
+        "倒V反转"
+      ]
+    },
+    {
+      "stock_code": "000506",
+      "stock_name": "招金黄金",
+      "current_price": 17.32,
+      "signal_direction": "看空",
+      "signal_score": 0.35,
+      "score": 35,
+      "prediction": {
+        "predicted_price": 17.42,
+        "predicted_return": 0.59,
+        "up_probability": 50.2,
+        "confidence": 0.2
+      },
+      "patterns": [
+        {
+          "name": "V型反转",
+          "type": "bullish"
+        },
+        {
+          "name": "跌破支撑位17.23",
+          "type": "bearish"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 16.91,
+          "prev_ma": 17.49,
+          "trend": "down",
+          "slope": -3.27
+        },
+        "ma10": {
+          "ma": 17.2,
+          "prev_ma": 17.25,
+          "trend": "flat",
+          "slope": -0.29
+        },
+        "ma20": {
+          "ma": 17.23,
+          "prev_ma": 17.62,
+          "trend": "down",
+          "slope": -2.25
+        },
+        "ma60": {
+          "ma": 17.35,
+          "prev_ma": 17.34,
+          "trend": "flat",
+          "slope": 0.05
+        },
+        "ma_alignment": {
+          "alignment": "bearish",
+          "score": 0,
+          "price_above_all": false
+        },
+        "rsi": 50.8,
+        "volume_ratio": {
+          "volume_ratio": 1.08,
+          "trend": "normal"
+        },
+        "vol_trend": {
+          "trend": "increasing",
+          "consecutive_up": true,
+          "volumes": [
+            1923117,
+            3811043,
+            4075259
+          ]
+        },
+        "tail_pct": 5.1,
+        "price_position": 48.7,
+        "pct_5d": 6.31,
+        "pct_20d": -2.55
+      },
+      "bull_signals": [
+        "股价站上MA20",
+        "成交量放大",
+        "V型反转"
+      ],
+      "bear_signals": [
+        "均线空头排列",
+        "MA20下行",
+        "跌破支撑位17.23"
+      ]
+    },
+    {
+      "stock_code": "000603",
+      "stock_name": "盛达资源",
+      "current_price": 31.98,
+      "signal_direction": "看多",
+      "signal_score": 0.69,
+      "score": 69,
+      "prediction": {
+        "predicted_price": 32.86,
+        "predicted_return": 2.75,
+        "up_probability": 51.1,
+        "confidence": 0.8
+      },
+      "patterns": [
+        {
+          "name": "V型反转",
+          "type": "bullish"
+        },
+        {
+          "name": "突破压力位32.27",
+          "type": "bullish"
+        },
+        {
+          "name": "反弹蓄势",
+          "type": "neutral"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 32.27,
+          "prev_ma": 30.74,
+          "trend": "up",
+          "slope": 5.0
+        },
+        "ma10": {
+          "ma": 31.51,
+          "prev_ma": 33.03,
+          "trend": "down",
+          "slope": -4.61
+        },
+        "ma20": {
+          "ma": 32.27,
+          "prev_ma": 31.47,
+          "trend": "up",
+          "slope": 2.54
+        },
+        "ma60": {
+          "ma": 31.78,
+          "prev_ma": 31.8,
+          "trend": "flat",
+          "slope": -0.08
+        },
+        "ma_alignment": {
+          "alignment": "semi_bullish",
+          "score": 75,
+          "price_above_all": true
+        },
+        "rsi": 55.9,
+        "volume_ratio": {
+          "volume_ratio": 1.13,
+          "trend": "slightly_high"
+        },
+        "vol_trend": {
+          "trend": "down_or_flat",
+          "consecutive_up": false,
+          "volumes": [
+            3930871,
+            4369140,
+            1580226
+          ]
+        },
+        "tail_pct": 2.17,
+        "price_position": 50.6,
+        "pct_5d": 7.67,
+        "pct_20d": 10.0
+      },
+      "bull_signals": [
+        "均线偏多",
+        "MA20上行",
+        "V型反转",
+        "突破压力位32.27"
+      ],
+      "bear_signals": [
+        "股价低于MA20"
+      ]
+    },
+    {
+      "stock_code": "603259",
+      "stock_name": "药明康德",
+      "current_price": 151.5,
+      "signal_direction": "看多",
+      "signal_score": 0.66,
+      "score": 66,
+      "prediction": {
+        "predicted_price": 160.71,
+        "predicted_return": 6.08,
+        "up_probability": 52.4,
+        "confidence": 1.7
+      },
+      "patterns": [
+        {
+          "name": "V型反转",
+          "type": "bullish"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 157.53,
+          "prev_ma": 144.14,
+          "trend": "up",
+          "slope": 9.29
+        },
+        "ma10": {
+          "ma": 150.83,
+          "prev_ma": 150.62,
+          "trend": "flat",
+          "slope": 0.14
+        },
+        "ma20": {
+          "ma": 150.73,
+          "prev_ma": 152.2,
+          "trend": "flat",
+          "slope": -0.97
+        },
+        "ma60": {
+          "ma": 152.04,
+          "prev_ma": 153.67,
+          "trend": "down",
+          "slope": -1.06
+        },
+        "ma_alignment": {
+          "alignment": "neutral",
+          "score": 50,
+          "price_above_all": false
+        },
+        "rsi": 49.5,
+        "volume_ratio": {
+          "volume_ratio": 0.86,
+          "trend": "normal"
+        },
+        "vol_trend": {
+          "trend": "up",
+          "consecutive_up": false,
+          "volumes": [
+            3303588,
+            2991049,
+            4031524
+          ]
+        },
+        "tail_pct": 6.17,
+        "price_position": 49.6,
+        "pct_5d": 12.27,
+        "pct_20d": -4.96
+      },
+      "bull_signals": [
+        "股价站上MA20",
+        "成交量放大",
+        "V型反转"
+      ],
+      "bear_signals": []
+    },
+    {
+      "stock_code": "601600",
+      "stock_name": "中国铝业",
+      "current_price": 9.84,
+      "signal_direction": "中性",
+      "signal_score": 0.45,
+      "score": 45,
+      "prediction": {
+        "predicted_price": 9.97,
+        "predicted_return": 1.31,
+        "up_probability": 50.5,
+        "confidence": 0.4
+      },
+      "patterns": [
+        {
+          "name": "V型反转",
+          "type": "bullish"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 9.61,
+          "prev_ma": 10.32,
+          "trend": "down",
+          "slope": -6.88
+        },
+        "ma10": {
+          "ma": 9.97,
+          "prev_ma": 9.98,
+          "trend": "flat",
+          "slope": -0.16
+        },
+        "ma20": {
+          "ma": 9.97,
+          "prev_ma": 9.87,
+          "trend": "up",
+          "slope": 1.06
+        },
+        "ma60": {
+          "ma": 9.9,
+          "prev_ma": 9.84,
+          "trend": "flat",
+          "slope": 0.57
+        },
+        "ma_alignment": {
+          "alignment": "bearish",
+          "score": 0,
+          "price_above_all": false
+        },
+        "rsi": 39.9,
+        "volume_ratio": {
+          "volume_ratio": 1.32,
+          "trend": "slightly_high"
+        },
+        "vol_trend": {
+          "trend": "up",
+          "consecutive_up": false,
+          "volumes": [
+            4521901,
+            4387361,
+            5284356
+          ]
+        },
+        "tail_pct": 2.39,
+        "price_position": 48.9,
+        "pct_5d": -14.43,
+        "pct_20d": -7.92
+      },
+      "bull_signals": [
+        "MA20上行",
+        "成交量放大",
+        "V型反转"
+      ],
+      "bear_signals": [
+        "均线空头排列",
+        "股价低于MA20"
+      ]
+    },
+    {
+      "stock_code": "688331",
+      "stock_name": "荣昌生物",
+      "current_price": 125.66,
+      "signal_direction": "看空",
+      "signal_score": 0.38,
+      "score": 38,
+      "prediction": {
+        "predicted_price": 127.14,
+        "predicted_return": 1.17,
+        "up_probability": 50.5,
+        "confidence": 0.3
+      },
+      "patterns": [
+        {
+          "name": "V型反转",
+          "type": "bullish"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 124.35,
+          "prev_ma": 127.32,
+          "trend": "down",
+          "slope": -2.33
+        },
+        "ma10": {
+          "ma": 125.84,
+          "prev_ma": 126.35,
+          "trend": "flat",
+          "slope": -0.41
+        },
+        "ma20": {
+          "ma": 126.09,
+          "prev_ma": 125.73,
+          "trend": "flat",
+          "slope": 0.29
+        },
+        "ma60": {
+          "ma": 126.0,
+          "prev_ma": 126.87,
+          "trend": "flat",
+          "slope": -0.68
+        },
+        "ma_alignment": {
+          "alignment": "bearish",
+          "score": 0,
+          "price_above_all": false
+        },
+        "rsi": 48.6,
+        "volume_ratio": {
+          "volume_ratio": 1.61,
+          "trend": "high"
+        },
+        "vol_trend": {
+          "trend": "up",
+          "consecutive_up": false,
+          "volumes": [
+            3933727,
+            5593636,
+            4005608
+          ]
+        },
+        "tail_pct": 5.45,
+        "price_position": 49.4,
+        "pct_5d": 2.34,
+        "pct_20d": 2.15
+      },
+      "bull_signals": [
+        "成交量放大",
+        "V型反转"
+      ],
+      "bear_signals": [
+        "均线空头排列",
+        "股价低于MA20"
+      ]
+    },
+    {
+      "stock_code": "300476",
+      "stock_name": "胜宏科技",
+      "current_price": 270.89,
+      "signal_direction": "中性",
+      "signal_score": 0.59,
+      "score": 59,
+      "prediction": {
+        "predicted_price": 267.76,
+        "predicted_return": -1.16,
+        "up_probability": 49.5,
+        "confidence": 0.3
+      },
+      "patterns": [
+        {
+          "name": "倒V反转",
+          "type": "bearish"
+        },
+        {
+          "name": "跌破支撑位267.91",
+          "type": "bearish"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 280.94,
+          "prev_ma": 260.59,
+          "trend": "up",
+          "slope": 7.81
+        },
+        "ma10": {
+          "ma": 270.76,
+          "prev_ma": 265.05,
+          "trend": "up",
+          "slope": 2.15
+        },
+        "ma20": {
+          "ma": 267.91,
+          "prev_ma": 261.98,
+          "trend": "up",
+          "slope": 2.26
+        },
+        "ma60": {
+          "ma": 267.32,
+          "prev_ma": 270.82,
+          "trend": "down",
+          "slope": -1.29
+        },
+        "ma_alignment": {
+          "alignment": "neutral",
+          "score": 50,
+          "price_above_all": false
+        },
+        "rsi": 54.3,
+        "volume_ratio": {
+          "volume_ratio": 0.53,
+          "trend": "low"
+        },
+        "vol_trend": {
+          "trend": "down_or_flat",
+          "consecutive_up": false,
+          "volumes": [
+            1954419,
+            1209483,
+            1787257
+          ]
+        },
+        "tail_pct": 8.29,
+        "price_position": 50.3,
+        "pct_5d": 8.47,
+        "pct_20d": 7.29
+      },
+      "bull_signals": [
+        "MA20上行",
+        "股价站上MA20"
+      ],
+      "bear_signals": [
+        "倒V反转",
+        "跌破支撑位267.91"
+      ]
+    },
+    {
+      "stock_code": "603993",
+      "stock_name": "洛阳钼业",
+      "current_price": 20.97,
+      "signal_direction": "中性",
+      "signal_score": 0.56,
+      "score": 56,
+      "prediction": {
+        "predicted_price": 20.63,
+        "predicted_return": -1.61,
+        "up_probability": 49.4,
+        "confidence": 0.5
+      },
+      "patterns": [
+        {
+          "name": "突破压力位21.02",
+          "type": "bullish"
+        },
+        {
+          "name": "反弹蓄势",
+          "type": "neutral"
+        }
+      ],
+      "indicators": {
+        "ma5": {
+          "ma": 21.1,
+          "prev_ma": 20.39,
+          "trend": "up",
+          "slope": 3.44
+        },
+        "ma10": {
+          "ma": 20.74,
+          "prev_ma": 21.3,
+          "trend": "down",
+          "slope": -2.63
+        },
+        "ma20": {
+          "ma": 21.02,
+          "prev_ma": 21.09,
+          "trend": "flat",
+          "slope": -0.33
+        },
+        "ma60": {
+          "ma": 20.98,
+          "prev_ma": 20.83,
+          "trend": "flat",
+          "slope": 0.75
+        },
+        "ma_alignment": {
+          "alignment": "semi_bullish",
+          "score": 75,
+          "price_above_all": true
+        },
+        "rsi": 48.1,
+        "volume_ratio": {
+          "volume_ratio": 1.17,
+          "trend": "slightly_high"
+        },
+        "vol_trend": {
+          "trend": "down_or_flat",
+          "consecutive_up": false,
+          "volumes": [
+            4467378,
+            3238505,
+            4121608
+          ]
+        },
+        "tail_pct": 2.95,
+        "price_position": 50.9,
+        "pct_5d": -7.26,
+        "pct_20d": -6.2
+      },
+      "bull_signals": [
+        "均线偏多",
+        "突破压力位21.02"
+      ],
+      "bear_signals": [
+        "股价低于MA20"
+      ]
+    },
+    {
+      "stock_code": "000807",
+      "stock_name": "云铝股份",
+      "current_price": 27.44,
+      "signal_direction": "中性",
+      "signal_score": 0.58,
+      "score": 58,
+      "prediction": {
+        "predicted_price": 27.22,
+        "predicted_return": -0.81,
+        "up_probability": 49.7,
+        "confidence": 0.2
+      },
+      "patterns": [],
+      "indicators": {
+        "ma5": {
+          "ma": 27.82,
+          "prev_ma": 27.84,
+          "trend": "flat",
+          "slope": -0.07
+        },
+        "ma10": {
+          "ma": 27.83,
+          "prev_ma": 27.23,
+          "trend": "up",
+          "slope": 2.2
+        },
+        "ma20": {
+          "ma": 27.53,
+          "prev_ma": 27.65,
+          "trend": "flat",
+          "slope": -0.42
+        },
+        "ma60": {
+          "ma": 27.54,
+          "prev_ma": 27.21,
+          "trend": "up",
+          "slope": 1.24
+        },
+        "ma_alignment": {
+          "alignment": "semi_bullish",
+          "score": 75,
+          "price_above_all": true
+        },
+        "rsi": 54.5,
+        "volume_ratio": {
+          "volume_ratio": 0.89,
+          "trend": "normal"
+        },
+        "vol_trend": {
+          "trend": "increasing",
+          "consecutive_up": true,
+          "volumes": [
+            3560153,
+            4647235,
+            5034585
+          ]
+        },
+        "tail_pct": 2.93,
+        "price_position": 51.7,
+        "pct_5d": 4.45,
+        "pct_20d": -1.7
+      },
+      "bull_signals": [
+        "均线偏多",
+        "成交量放大"
+      ],
+      "bear_signals": [
+        "股价低于MA20"
+      ]
+    }
+  ]
+}

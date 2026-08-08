@@ -1,0 +1,2506 @@
+{
+  "timestamp": "2026-08-07 10:12:14",
+  "mode": "hot",
+  "results": [
+    {
+      "code": "600961",
+      "name": "株冶集团",
+      "price": 27.95,
+      "change_pct": 3.63,
+      "turnover_rate": 4.51,
+      "pe": 15.05,
+      "pb": 5.93,
+      "market_cap": 29954605868,
+      "industry": "半导体封测",
+      "industry_level1": "科技",
+      "industry_level2": "科技.半导体封测",
+      "industry_thresholds": {
+        "roe_min": 5.0,
+        "debt_ratio_max": 55.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-12%，营收稳定，看产能稼动率",
+      "fundamental": {
+        "code": "600961",
+        "report_date": "2026-03-31",
+        "roe": 25.3,
+        "roa": null,
+        "gross_margin": 24.0894342506,
+        "net_margin": 16.3507280772,
+        "revenue_growth": 45.9023858305,
+        "profit_growth": 313.000015972182,
+        "debt_ratio": 40.7098128036,
+        "current_ratio": 1.434870045361,
+        "quick_ratio": 0.840724736953,
+        "cash_flow_operate": 1516987283.77,
+        "free_cash_flow": 1516987283.77,
+        "revenue": 7007513170.84,
+        "net_profit": 1143680542.34,
+        "eps": 1.06
+      },
+      "ma5": {
+        "ma": 25.79,
+        "prev_ma": 22.49,
+        "trend": "up",
+        "slope": 14.67
+      },
+      "ma10": {
+        "ma": 24.14,
+        "prev_ma": 23.67,
+        "trend": "up",
+        "slope": 2.0
+      },
+      "ma20": {
+        "ma": 23.91,
+        "prev_ma": 30.28,
+        "trend": "down",
+        "slope": -21.06
+      },
+      "ma60": {
+        "ma": 26.71,
+        "prev_ma": 22.08,
+        "trend": "up",
+        "slope": 20.94
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.5,
+        "trend": "high"
+      },
+      "vol_trend": {
+        "trend": "down_or_flat",
+        "consecutive_up": false,
+        "volumes": [
+          755424.0,
+          913666.0,
+          363885.0
+        ]
+      },
+      "tail_pct": 3.63,
+      "price_position": 46.1,
+      "pct_5d": 23.79,
+      "pct_20d": 5.96,
+      "circ_market_cap": 299.55,
+      "turnover_rate_quantified": "活跃",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "25.3%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "313.0%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 7.0,
+          "max": 7,
+          "value": "PE:15.1"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 8.0,
+          "max": 8,
+          "value": "3.6%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 4.0,
+          "max": 8,
+          "value": "down_or_flat"
+        },
+        {
+          "name": "换手率",
+          "score": 4.5,
+          "max": 6,
+          "value": "4.5%"
+        },
+        {
+          "name": "行业热度",
+          "score": 6.0,
+          "max": 6,
+          "value": "5日涨23.8%"
+        }
+      ],
+      "fundamental_score": 36.5,
+      "technical_score": 34.5,
+      "capital_score": 20.0,
+      "total_score": 91.0,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：科技.半导体封测行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 36.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "25.3%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "313.0%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 7.0,
+              "max": 7,
+              "value": "PE:15.1"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 34.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 8.0,
+              "max": 8,
+              "value": "3.6%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 4.0,
+              "max": 8,
+              "value": "down_or_flat"
+            },
+            {
+              "name": "换手率",
+              "score": 4.5,
+              "max": 6,
+              "value": "4.5%"
+            },
+            {
+              "name": "行业热度",
+              "score": 6.0,
+              "max": 6,
+              "value": "5日涨23.8%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "002645",
+      "name": "华宏科技",
+      "price": 19.3,
+      "change_pct": 4.04,
+      "turnover_rate": 4.89,
+      "pe": 37.31,
+      "pb": 3.46,
+      "market_cap": 14550286746,
+      "industry": "半导体封测",
+      "industry_level1": "科技",
+      "industry_level2": "科技.半导体封测",
+      "industry_thresholds": {
+        "roe_min": 5.0,
+        "debt_ratio_max": 55.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-12%，营收稳定，看产能稼动率",
+      "fundamental": {
+        "code": "002645",
+        "report_date": "2026-03-31",
+        "roe": 5.21,
+        "roa": null,
+        "gross_margin": 16.2100020123,
+        "net_margin": 9.48208964,
+        "revenue_growth": 74.927367741837,
+        "profit_growth": 595.205081130189,
+        "debt_ratio": 36.758303931,
+        "current_ratio": 1.960332367175,
+        "quick_ratio": 0.935379337382,
+        "cash_flow_operate": 391280705.63,
+        "free_cash_flow": 391280705.63,
+        "revenue": 2512429324.38,
+        "net_profit": 216441380.14,
+        "eps": 0.3449
+      },
+      "ma5": {
+        "ma": 20.0,
+        "prev_ma": 19.3,
+        "trend": "up",
+        "slope": 3.61
+      },
+      "ma10": {
+        "ma": 19.65,
+        "prev_ma": 19.49,
+        "trend": "flat",
+        "slope": 0.85
+      },
+      "ma20": {
+        "ma": 19.57,
+        "prev_ma": 18.8,
+        "trend": "up",
+        "slope": 4.1
+      },
+      "ma60": {
+        "ma": 19.23,
+        "prev_ma": 19.19,
+        "trend": "flat",
+        "slope": 0.26
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.13,
+        "trend": "slightly_high"
+      },
+      "vol_trend": {
+        "trend": "up",
+        "consecutive_up": false,
+        "volumes": [
+          2500885,
+          4567392,
+          3243392
+        ]
+      },
+      "tail_pct": 4.04,
+      "price_position": 48.8,
+      "pct_5d": 17.08,
+      "pct_20d": 7.84,
+      "circ_market_cap": 145.5,
+      "turnover_rate_quantified": "活跃",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "5.2%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "595.2%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 3.5,
+          "max": 7,
+          "value": "PE:37.3"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 8.0,
+          "max": 8,
+          "value": "4.0%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 5.0,
+          "max": 8,
+          "value": "up"
+        },
+        {
+          "name": "换手率",
+          "score": 4.5,
+          "max": 6,
+          "value": "4.9%"
+        },
+        {
+          "name": "行业热度",
+          "score": 6.0,
+          "max": 6,
+          "value": "5日涨17.1%"
+        }
+      ],
+      "fundamental_score": 33.0,
+      "technical_score": 35.5,
+      "capital_score": 20.0,
+      "total_score": 88.5,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：科技.半导体封测行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 33.0,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "5.2%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "595.2%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 3.5,
+              "max": 7,
+              "value": "PE:37.3"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 35.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 8.0,
+              "max": 8,
+              "value": "4.0%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 5.0,
+              "max": 8,
+              "value": "up"
+            },
+            {
+              "name": "换手率",
+              "score": 4.5,
+              "max": 6,
+              "value": "4.9%"
+            },
+            {
+              "name": "行业热度",
+              "score": 6.0,
+              "max": 6,
+              "value": "5日涨17.1%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "000506",
+      "name": "招金黄金",
+      "price": 17.26,
+      "change_pct": 4.73,
+      "turnover_rate": 5.33,
+      "pe": 45.9,
+      "pb": 18.04,
+      "market_cap": 16006976022,
+      "industry": "有色",
+      "industry_level1": "周期",
+      "industry_level2": "周期.有色",
+      "industry_thresholds": {
+        "roe_min": 5.0,
+        "debt_ratio_max": 65.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-20%（顺周期），看金属价格",
+      "fundamental": {
+        "code": "000506",
+        "report_date": "2026-03-31",
+        "roe": 23.6,
+        "roa": null,
+        "gross_margin": 56.0535438849,
+        "net_margin": 110.0527565404,
+        "revenue_growth": 82.788054882444,
+        "profit_growth": 6136.21073824602,
+        "debt_ratio": 37.0877362285,
+        "current_ratio": 0.764192407753,
+        "quick_ratio": 0.464716027711,
+        "cash_flow_operate": 12321169.09,
+        "free_cash_flow": 12321169.09,
+        "revenue": 178879540.33,
+        "net_profit": 187405996.36,
+        "eps": 0.2
+      },
+      "ma5": {
+        "ma": 15.84,
+        "prev_ma": 13.13,
+        "trend": "up",
+        "slope": 20.61
+      },
+      "ma10": {
+        "ma": 14.48,
+        "prev_ma": 12.42,
+        "trend": "up",
+        "slope": 16.65
+      },
+      "ma20": {
+        "ma": 13.45,
+        "prev_ma": 13.4,
+        "trend": "flat",
+        "slope": 0.37
+      },
+      "ma60": {
+        "ma": 13.63,
+        "prev_ma": 17.9,
+        "trend": "down",
+        "slope": -23.86
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.07,
+        "trend": "normal"
+      },
+      "vol_trend": {
+        "trend": "down_or_flat",
+        "consecutive_up": false,
+        "volumes": [
+          1189314.0,
+          1198036.0,
+          528899.0
+        ]
+      },
+      "tail_pct": 4.73,
+      "price_position": 95.1,
+      "pct_5d": 20.94,
+      "pct_20d": 27.8,
+      "circ_market_cap": 160.07,
+      "turnover_rate_quantified": "活跃",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "23.6%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "6136.2%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 1.5,
+          "max": 7,
+          "value": "PE:45.9"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 8.0,
+          "max": 8,
+          "value": "4.7%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 4.0,
+          "max": 8,
+          "value": "down_or_flat"
+        },
+        {
+          "name": "换手率",
+          "score": 6.0,
+          "max": 6,
+          "value": "5.3%"
+        },
+        {
+          "name": "行业热度",
+          "score": 6.0,
+          "max": 6,
+          "value": "5日涨20.9%"
+        }
+      ],
+      "fundamental_score": 31.0,
+      "technical_score": 36.0,
+      "capital_score": 20.0,
+      "total_score": 87.0,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：周期.有色行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 31.0,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "23.6%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "6136.2%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 1.5,
+              "max": 7,
+              "value": "PE:45.9"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 36.0,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 8.0,
+              "max": 8,
+              "value": "4.7%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 4.0,
+              "max": 8,
+              "value": "down_or_flat"
+            },
+            {
+              "name": "换手率",
+              "score": 6.0,
+              "max": 6,
+              "value": "5.3%"
+            },
+            {
+              "name": "行业热度",
+              "score": 6.0,
+              "max": 6,
+              "value": "5日涨20.9%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "000603",
+      "name": "盛达资源",
+      "price": 31.95,
+      "change_pct": 2.08,
+      "turnover_rate": 6.55,
+      "pe": 25.86,
+      "pb": 5.87,
+      "market_cap": 21968623977,
+      "industry": "通信设备",
+      "industry_level1": "科技",
+      "industry_level2": "科技.通信设备",
+      "industry_thresholds": {
+        "roe_min": 6.0,
+        "debt_ratio_max": 60.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-12%，运营商周期，看资本开支",
+      "fundamental": {
+        "code": "000603",
+        "report_date": "2026-06-30",
+        "roe": 12.14,
+        "roa": null,
+        "gross_margin": 69.1464368208,
+        "net_margin": 37.5685632319,
+        "revenue_growth": 27.084423453721,
+        "profit_growth": 456.461858410108,
+        "debt_ratio": 48.3649135437,
+        "current_ratio": 0.770807919763,
+        "quick_ratio": 0.600209212152,
+        "cash_flow_operate": 572889111.34,
+        "free_cash_flow": 572889111.34,
+        "revenue": 1151604179.51,
+        "net_profit": 390059947.25,
+        "eps": 0.5653
+      },
+      "ma5": {
+        "ma": 34.15,
+        "prev_ma": 32.19,
+        "trend": "up",
+        "slope": 6.06
+      },
+      "ma10": {
+        "ma": 33.17,
+        "prev_ma": 31.68,
+        "trend": "up",
+        "slope": 4.72
+      },
+      "ma20": {
+        "ma": 32.42,
+        "prev_ma": 31.37,
+        "trend": "up",
+        "slope": 3.36
+      },
+      "ma60": {
+        "ma": 32.05,
+        "prev_ma": 31.91,
+        "trend": "flat",
+        "slope": 0.45
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.43,
+        "trend": "slightly_high"
+      },
+      "vol_trend": {
+        "trend": "increasing",
+        "consecutive_up": true,
+        "volumes": [
+          1675609,
+          2220404,
+          5923209
+        ]
+      },
+      "tail_pct": 2.08,
+      "price_position": 48.8,
+      "pct_5d": -0.74,
+      "pct_20d": 19.35,
+      "circ_market_cap": 219.69,
+      "turnover_rate_quantified": "活跃",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "12.1%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "456.5%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 3.5,
+          "max": 7,
+          "value": "PE:25.9"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 5.0,
+          "max": 8,
+          "value": "2.1%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 8.0,
+          "max": 8,
+          "value": "increasing"
+        },
+        {
+          "name": "换手率",
+          "score": 6.0,
+          "max": 6,
+          "value": "6.5%"
+        },
+        {
+          "name": "行业热度",
+          "score": 2.5,
+          "max": 6,
+          "value": "5日涨-0.7%"
+        }
+      ],
+      "fundamental_score": 33.0,
+      "technical_score": 33.5,
+      "capital_score": 20.0,
+      "total_score": 86.5,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "✅ 积极建仓：科技.通信设备行业，技术面优秀，均线多头排列+量能配合，可考虑买入",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 33.0,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "12.1%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "456.5%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 3.5,
+              "max": 7,
+              "value": "PE:25.9"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 33.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 5.0,
+              "max": 8,
+              "value": "2.1%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 8.0,
+              "max": 8,
+              "value": "increasing"
+            },
+            {
+              "name": "换手率",
+              "score": 6.0,
+              "max": 6,
+              "value": "6.5%"
+            },
+            {
+              "name": "行业热度",
+              "score": 2.5,
+              "max": 6,
+              "value": "5日涨-0.7%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "603259",
+      "name": "药明康德",
+      "price": 149.29,
+      "change_pct": 4.62,
+      "turnover_rate": 1.28,
+      "pe": 20.56,
+      "pb": 5.35,
+      "market_cap": 446101532244,
+      "industry": "医药生物",
+      "industry_level1": "消费",
+      "industry_level2": "消费.医药生物",
+      "industry_thresholds": {
+        "roe_min": 8.0,
+        "debt_ratio_max": 65.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-15%，高研发，看在研管线",
+      "fundamental": {
+        "code": "603259",
+        "report_date": "2026-06-30",
+        "roe": 13.19,
+        "roa": null,
+        "gross_margin": 53.9094753581,
+        "net_margin": 38.5027844551,
+        "revenue_growth": 38.934982859813,
+        "profit_growth": 29.427935686791,
+        "debt_ratio": 27.8495145705,
+        "current_ratio": 2.540310430538,
+        "quick_ratio": 2.153899487586,
+        "cash_flow_operate": 9699142388.08,
+        "free_cash_flow": 9699142388.08,
+        "revenue": 28897478718.36,
+        "net_profit": 11080173661.42,
+        "eps": 3.8
+      },
+      "ma5": {
+        "ma": 141.93,
+        "prev_ma": 125.62,
+        "trend": "up",
+        "slope": 12.98
+      },
+      "ma10": {
+        "ma": 133.77,
+        "prev_ma": 125.32,
+        "trend": "up",
+        "slope": 6.75
+      },
+      "ma20": {
+        "ma": 129.54,
+        "prev_ma": 114.22,
+        "trend": "up",
+        "slope": 13.41
+      },
+      "ma60": {
+        "ma": 114.42,
+        "prev_ma": 98.24,
+        "trend": "up",
+        "slope": 16.47
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.55,
+        "trend": "high"
+      },
+      "vol_trend": {
+        "trend": "down_or_flat",
+        "consecutive_up": false,
+        "volumes": [
+          1344755.0,
+          775094.0,
+          318195.0
+        ]
+      },
+      "tail_pct": 4.62,
+      "price_position": 98.8,
+      "pct_5d": 16.48,
+      "pct_20d": 21.32,
+      "circ_market_cap": 4461.02,
+      "turnover_rate_quantified": "适中",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "13.2%"
+        },
+        {
+          "name": "营收增速",
+          "score": 8.0,
+          "max": 10,
+          "value": "29.4%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 5.5,
+          "max": 7,
+          "value": "PE:20.6"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 8.0,
+          "max": 8,
+          "value": "4.6%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 4.0,
+          "max": 8,
+          "value": "down_or_flat"
+        },
+        {
+          "name": "换手率",
+          "score": 3.0,
+          "max": 6,
+          "value": "1.3%"
+        },
+        {
+          "name": "行业热度",
+          "score": 6.0,
+          "max": 6,
+          "value": "5日涨16.5%"
+        }
+      ],
+      "fundamental_score": 33.0,
+      "technical_score": 33.0,
+      "capital_score": 20.0,
+      "total_score": 86.0,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：消费.医药生物行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 33.0,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "13.2%"
+            },
+            {
+              "name": "营收增速",
+              "score": 8.0,
+              "max": 10,
+              "value": "29.4%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 5.5,
+              "max": 7,
+              "value": "PE:20.6"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 33.0,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 8.0,
+              "max": 8,
+              "value": "4.6%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 4.0,
+              "max": 8,
+              "value": "down_or_flat"
+            },
+            {
+              "name": "换手率",
+              "score": 3.0,
+              "max": 6,
+              "value": "1.3%"
+            },
+            {
+              "name": "行业热度",
+              "score": 6.0,
+              "max": 6,
+              "value": "5日涨16.5%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "601600",
+      "name": "中国铝业",
+      "price": 9.79,
+      "change_pct": 1.87,
+      "turnover_rate": 0.52,
+      "pe": 11.45,
+      "pb": 2.08,
+      "market_cap": 167947169291,
+      "industry": "有色",
+      "industry_level1": "周期",
+      "industry_level2": "周期.有色",
+      "industry_thresholds": {
+        "roe_min": 5.0,
+        "debt_ratio_max": 65.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-20%（顺周期），看金属价格",
+      "fundamental": {
+        "code": "601600",
+        "report_date": "2026-03-31",
+        "roe": 7.11,
+        "roa": null,
+        "gross_margin": 25.8276096923,
+        "net_margin": 17.1957802437,
+        "revenue_growth": 4.848806276092,
+        "profit_growth": 56.346474680461,
+        "debt_ratio": 43.2654736394,
+        "current_ratio": 1.567944065273,
+        "quick_ratio": 1.084470125295,
+        "cash_flow_operate": 10881417000,
+        "free_cash_flow": 10881417000,
+        "revenue": 58494089000,
+        "net_profit": 5527245000,
+        "eps": 0.323
+      },
+      "ma5": {
+        "ma": 10.09,
+        "prev_ma": 9.67,
+        "trend": "up",
+        "slope": 4.34
+      },
+      "ma10": {
+        "ma": 9.88,
+        "prev_ma": 9.7,
+        "trend": "up",
+        "slope": 1.85
+      },
+      "ma20": {
+        "ma": 9.79,
+        "prev_ma": 9.63,
+        "trend": "up",
+        "slope": 1.65
+      },
+      "ma60": {
+        "ma": 9.75,
+        "prev_ma": 9.6,
+        "trend": "up",
+        "slope": 1.52
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 0.9,
+        "trend": "normal"
+      },
+      "vol_trend": {
+        "trend": "up",
+        "consecutive_up": false,
+        "volumes": [
+          1690991,
+          2323715,
+          1766159
+        ]
+      },
+      "tail_pct": 1.87,
+      "price_position": 50.4,
+      "pct_5d": 5.3,
+      "pct_20d": -3.09,
+      "circ_market_cap": 1679.47,
+      "turnover_rate_quantified": "适中",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "7.1%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "56.3%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 7.0,
+          "max": 7,
+          "value": "PE:11.4"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 5.0,
+          "max": 8,
+          "value": "1.9%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 5.0,
+          "max": 8,
+          "value": "up"
+        },
+        {
+          "name": "换手率",
+          "score": 1.5,
+          "max": 6,
+          "value": "0.5%"
+        },
+        {
+          "name": "行业热度",
+          "score": 5.0,
+          "max": 6,
+          "value": "5日涨5.3%"
+        }
+      ],
+      "fundamental_score": 36.5,
+      "technical_score": 28.5,
+      "capital_score": 20.0,
+      "total_score": 85.0,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：周期.有色行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 36.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "7.1%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "56.3%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 7.0,
+              "max": 7,
+              "value": "PE:11.4"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 28.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 5.0,
+              "max": 8,
+              "value": "1.9%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 5.0,
+              "max": 8,
+              "value": "up"
+            },
+            {
+              "name": "换手率",
+              "score": 1.5,
+              "max": 6,
+              "value": "0.5%"
+            },
+            {
+              "name": "行业热度",
+              "score": 5.0,
+              "max": 6,
+              "value": "5日涨5.3%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "688331",
+      "name": "荣昌生物",
+      "price": 124.69,
+      "change_pct": 4.64,
+      "turnover_rate": 1.51,
+      "pe": 54.49,
+      "pb": 17.92,
+      "market_cap": 70390342130,
+      "industry": "医药生物",
+      "industry_level1": "消费",
+      "industry_level2": "消费.医药生物",
+      "industry_thresholds": {
+        "roe_min": 8.0,
+        "debt_ratio_max": 65.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-15%，高研发，看在研管线",
+      "fundamental": {
+        "code": "688331",
+        "report_date": "2026-03-31",
+        "roe": 8.68,
+        "roa": null,
+        "gross_margin": 82.1770950021,
+        "net_margin": 49.9847427872,
+        "revenue_growth": 24.763040967087,
+        "profit_growth": 229.063246917221,
+        "debt_ratio": 46.6617620126,
+        "current_ratio": 1.581237672867,
+        "quick_ratio": 1.311040528169,
+        "cash_flow_operate": 11318003.95,
+        "free_cash_flow": 11318003.95,
+        "revenue": 656214449.91,
+        "net_profit": 328007104.92,
+        "eps": 0.58
+      },
+      "ma5": {
+        "ma": 130.17,
+        "prev_ma": 124.19,
+        "trend": "up",
+        "slope": 4.82
+      },
+      "ma10": {
+        "ma": 127.18,
+        "prev_ma": 126.03,
+        "trend": "flat",
+        "slope": 0.92
+      },
+      "ma20": {
+        "ma": 126.6,
+        "prev_ma": 125.7,
+        "trend": "flat",
+        "slope": 0.72
+      },
+      "ma60": {
+        "ma": 125.46,
+        "prev_ma": 127.06,
+        "trend": "down",
+        "slope": -1.27
+      },
+      "ma_alignment": {
+        "alignment": "neutral",
+        "score": 50,
+        "price_above_all": false
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.12,
+        "trend": "slightly_high"
+      },
+      "vol_trend": {
+        "trend": "up",
+        "consecutive_up": false,
+        "volumes": [
+          3397370,
+          2448669,
+          4384454
+        ]
+      },
+      "tail_pct": 4.64,
+      "price_position": 42.1,
+      "pct_5d": 11.45,
+      "pct_20d": -4.49,
+      "circ_market_cap": 703.9,
+      "turnover_rate_quantified": "适中",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "8.7%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "229.1%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 7.0,
+          "max": 7,
+          "value": "PE:54.5"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 5.0,
+          "max": 12,
+          "value": "neutral"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 8.0,
+          "max": 8,
+          "value": "4.6%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 5.0,
+          "max": 8,
+          "value": "up"
+        },
+        {
+          "name": "换手率",
+          "score": 3.0,
+          "max": 6,
+          "value": "1.5%"
+        },
+        {
+          "name": "行业热度",
+          "score": 6.0,
+          "max": 6,
+          "value": "5日涨11.4%"
+        }
+      ],
+      "fundamental_score": 36.5,
+      "technical_score": 27.0,
+      "capital_score": 20.0,
+      "total_score": 83.5,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：消费.医药生物行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 36.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "8.7%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "229.1%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 7.0,
+              "max": 7,
+              "value": "PE:54.5"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 27.0,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 5.0,
+              "max": 12,
+              "value": "neutral"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 8.0,
+              "max": 8,
+              "value": "4.6%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 5.0,
+              "max": 8,
+              "value": "up"
+            },
+            {
+              "name": "换手率",
+              "score": 3.0,
+              "max": 6,
+              "value": "1.5%"
+            },
+            {
+              "name": "行业热度",
+              "score": 6.0,
+              "max": 6,
+              "value": "5日涨11.4%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "300476",
+      "name": "胜宏科技",
+      "price": 267.59,
+      "change_pct": 6.97,
+      "turnover_rate": 3.37,
+      "pe": 56.2,
+      "pb": 16.79,
+      "market_cap": 262786831148,
+      "industry": "半导体设计",
+      "industry_level1": "科技",
+      "industry_level2": "科技.半导体设计",
+      "industry_thresholds": {
+        "roe_min": 3.0,
+        "debt_ratio_max": 60.0,
+        "cash_flow_exempt": true
+      },
+      "industry_note": "ROE 5-15%，营收增速 30%+，看研发投入占比",
+      "fundamental": {
+        "code": "300476",
+        "report_date": "2026-03-31",
+        "roe": 7.62,
+        "roa": null,
+        "gross_margin": 34.4584933385,
+        "net_margin": 23.3432571491,
+        "revenue_growth": 27.992782649537,
+        "profit_growth": 39.947998853247,
+        "debt_ratio": 55.2339383821,
+        "current_ratio": 0.921351317383,
+        "quick_ratio": 0.677308578476,
+        "cash_flow_operate": 2116658463.16,
+        "free_cash_flow": 2116658463.16,
+        "revenue": 5519485066.85,
+        "net_profit": 1288427592.46,
+        "eps": 1.48
+      },
+      "ma5": {
+        "ma": 273.82,
+        "prev_ma": 273.18,
+        "trend": "flat",
+        "slope": 0.23
+      },
+      "ma10": {
+        "ma": 273.5,
+        "prev_ma": 262.96,
+        "trend": "up",
+        "slope": 4.01
+      },
+      "ma20": {
+        "ma": 268.23,
+        "prev_ma": 262.14,
+        "trend": "up",
+        "slope": 2.32
+      },
+      "ma60": {
+        "ma": 266.73,
+        "prev_ma": 268.46,
+        "trend": "flat",
+        "slope": -0.64
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.67,
+        "trend": "high"
+      },
+      "vol_trend": {
+        "trend": "down_or_flat",
+        "consecutive_up": false,
+        "volumes": [
+          4636606,
+          5370681,
+          1964156
+        ]
+      },
+      "tail_pct": 6.97,
+      "price_position": 49.0,
+      "pct_5d": 4.4,
+      "pct_20d": 17.77,
+      "circ_market_cap": 2627.87,
+      "turnover_rate_quantified": "活跃",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "7.6%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "39.9%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 6.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 7.0,
+          "max": 7,
+          "value": "PE:56.2"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 4.0,
+          "max": 8,
+          "value": "7.0%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 4.0,
+          "max": 8,
+          "value": "down_or_flat"
+        },
+        {
+          "name": "换手率",
+          "score": 4.5,
+          "max": 6,
+          "value": "3.4%"
+        },
+        {
+          "name": "行业热度",
+          "score": 4.0,
+          "max": 6,
+          "value": "5日涨4.4%"
+        }
+      ],
+      "fundamental_score": 34.5,
+      "technical_score": 28.5,
+      "capital_score": 20.0,
+      "total_score": 83.0,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：科技.半导体设计行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 34.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "7.6%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "39.9%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 6.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 7.0,
+              "max": 7,
+              "value": "PE:56.2"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 28.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 4.0,
+              "max": 8,
+              "value": "7.0%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 4.0,
+              "max": 8,
+              "value": "down_or_flat"
+            },
+            {
+              "name": "换手率",
+              "score": 4.5,
+              "max": 6,
+              "value": "3.4%"
+            },
+            {
+              "name": "行业热度",
+              "score": 4.0,
+              "max": 6,
+              "value": "5日涨4.4%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "603993",
+      "name": "洛阳钼业",
+      "price": 20.89,
+      "change_pct": 2.55,
+      "turnover_rate": 0.57,
+      "pe": 18.5,
+      "pb": 5.4,
+      "market_cap": 445643480966,
+      "industry": "有色",
+      "industry_level1": "周期",
+      "industry_level2": "周期.有色",
+      "industry_thresholds": {
+        "roe_min": 5.0,
+        "debt_ratio_max": 65.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-20%（顺周期），看金属价格",
+      "fundamental": {
+        "code": "603993",
+        "report_date": "2026-03-31",
+        "roe": 9.06,
+        "roa": null,
+        "gross_margin": 22.8849393275,
+        "net_margin": 13.2878797697,
+        "revenue_growth": 44.33616810728,
+        "profit_growth": 96.654961912629,
+        "debt_ratio": 52.0303207841,
+        "current_ratio": 1.4384363379,
+        "quick_ratio": 0.966420304776,
+        "cash_flow_operate": 11329218827.44,
+        "free_cash_flow": 11329218827.44,
+        "revenue": 66403195123.35,
+        "net_profit": 7760054120.3,
+        "eps": 0.36
+      },
+      "ma5": {
+        "ma": 21.29,
+        "prev_ma": 21.5,
+        "trend": "flat",
+        "slope": -0.95
+      },
+      "ma10": {
+        "ma": 21.4,
+        "prev_ma": 21.04,
+        "trend": "up",
+        "slope": 1.67
+      },
+      "ma20": {
+        "ma": 21.22,
+        "prev_ma": 20.87,
+        "trend": "up",
+        "slope": 1.69
+      },
+      "ma60": {
+        "ma": 20.88,
+        "prev_ma": 20.89,
+        "trend": "flat",
+        "slope": -0.05
+      },
+      "ma_alignment": {
+        "alignment": "semi_bullish",
+        "score": 75,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.12,
+        "trend": "slightly_high"
+      },
+      "vol_trend": {
+        "trend": "increasing",
+        "consecutive_up": true,
+        "volumes": [
+          1048049,
+          2766323,
+          5938939
+        ]
+      },
+      "tail_pct": 2.55,
+      "price_position": 48.5,
+      "pct_5d": 1.06,
+      "pct_20d": 10.14,
+      "circ_market_cap": 4456.43,
+      "turnover_rate_quantified": "适中",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "9.1%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "96.7%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 7.0,
+          "max": 7,
+          "value": "PE:18.5"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 8.0,
+          "max": 12,
+          "value": "semi_bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 5.0,
+          "max": 8,
+          "value": "2.5%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 8.0,
+          "max": 8,
+          "value": "increasing"
+        },
+        {
+          "name": "换手率",
+          "score": 1.5,
+          "max": 6,
+          "value": "0.6%"
+        },
+        {
+          "name": "行业热度",
+          "score": 4.0,
+          "max": 6,
+          "value": "5日涨1.1%"
+        }
+      ],
+      "fundamental_score": 36.5,
+      "technical_score": 26.5,
+      "capital_score": 20.0,
+      "total_score": 83.0,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：周期.有色行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 36.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "9.1%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "96.7%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 7.0,
+              "max": 7,
+              "value": "PE:18.5"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 26.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 8.0,
+              "max": 12,
+              "value": "semi_bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 5.0,
+              "max": 8,
+              "value": "2.5%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 8.0,
+              "max": 8,
+              "value": "increasing"
+            },
+            {
+              "name": "换手率",
+              "score": 1.5,
+              "max": 6,
+              "value": "0.6%"
+            },
+            {
+              "name": "行业热度",
+              "score": 4.0,
+              "max": 6,
+              "value": "5日涨1.1%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "000807",
+      "name": "云铝股份",
+      "price": 27.33,
+      "change_pct": 2.51,
+      "turnover_rate": 0.86,
+      "pe": 10.92,
+      "pb": 2.76,
+      "market_cap": 94675237157,
+      "industry": "有色",
+      "industry_level1": "周期",
+      "industry_level2": "周期.有色",
+      "industry_thresholds": {
+        "roe_min": 5.0,
+        "debt_ratio_max": 65.0,
+        "cash_flow_exempt": false
+      },
+      "industry_note": "ROE 8-20%（顺周期），看金属价格",
+      "fundamental": {
+        "code": "000807",
+        "report_date": "2026-03-31",
+        "roe": 10.64,
+        "roa": null,
+        "gross_margin": 31.5743110437,
+        "net_margin": 25.3043333702,
+        "revenue_growth": 13.684089382402,
+        "profit_growth": 269.45356353764,
+        "debt_ratio": 17.7381495698,
+        "current_ratio": 3.408558035384,
+        "quick_ratio": 2.701539461065,
+        "cash_flow_operate": 3397294147.83,
+        "free_cash_flow": 3397294147.83,
+        "revenue": 16383159877.77,
+        "net_profit": 3599885593.79,
+        "eps": 1.038
+      },
+      "ma5": {
+        "ma": 26.51,
+        "prev_ma": 26.1,
+        "trend": "up",
+        "slope": 1.58
+      },
+      "ma10": {
+        "ma": 26.3,
+        "prev_ma": 25.37,
+        "trend": "up",
+        "slope": 3.69
+      },
+      "ma20": {
+        "ma": 25.84,
+        "prev_ma": 23.71,
+        "trend": "up",
+        "slope": 8.99
+      },
+      "ma60": {
+        "ma": 26.09,
+        "prev_ma": 32.03,
+        "trend": "down",
+        "slope": -18.53
+      },
+      "ma_alignment": {
+        "alignment": "bullish",
+        "score": 100,
+        "price_above_all": true
+      },
+      "volume_analysis": {
+        "volume_ratio": 1.05,
+        "trend": "normal"
+      },
+      "vol_trend": {
+        "trend": "down_or_flat",
+        "consecutive_up": false,
+        "volumes": [
+          1030360.0,
+          863334.0,
+          334510.0
+        ]
+      },
+      "tail_pct": 2.51,
+      "price_position": 57.9,
+      "pct_5d": 2.82,
+      "pct_20d": 18.23,
+      "circ_market_cap": 946.75,
+      "turnover_rate_quantified": "适中",
+      "fundamental_items": [
+        {
+          "name": "ROE",
+          "score": 10.0,
+          "max": 10,
+          "value": "10.6%"
+        },
+        {
+          "name": "营收增速",
+          "score": 10.0,
+          "max": 10,
+          "value": "269.5%"
+        },
+        {
+          "name": "自由现金流",
+          "score": 8.0,
+          "max": 8,
+          "value": "为正"
+        },
+        {
+          "name": "估值PE",
+          "score": 7.0,
+          "max": 7,
+          "value": "PE:10.9"
+        },
+        {
+          "name": "股息率",
+          "score": 1.5,
+          "max": 5,
+          "value": "0.00%"
+        }
+      ],
+      "technical_items": [
+        {
+          "name": "均线多头排列",
+          "score": 12.0,
+          "max": 12,
+          "value": "bullish"
+        },
+        {
+          "name": "尾盘拉升",
+          "score": 5.0,
+          "max": 8,
+          "value": "2.5%"
+        },
+        {
+          "name": "成交量趋势",
+          "score": 4.0,
+          "max": 8,
+          "value": "down_or_flat"
+        },
+        {
+          "name": "换手率",
+          "score": 1.5,
+          "max": 6,
+          "value": "0.9%"
+        },
+        {
+          "name": "行业热度",
+          "score": 4.0,
+          "max": 6,
+          "value": "5日涨2.8%"
+        }
+      ],
+      "fundamental_score": 36.5,
+      "technical_score": 26.5,
+      "capital_score": 20.0,
+      "total_score": 83.0,
+      "grade": "⭐⭐⭐⭐⭐ 优秀",
+      "advice": "⚠️ 谨慎关注：周期.有色行业，技术面良好，可逢低布局",
+      "score_details": [
+        {
+          "category": "基本面",
+          "score": 36.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "ROE",
+              "score": 10.0,
+              "max": 10,
+              "value": "10.6%"
+            },
+            {
+              "name": "营收增速",
+              "score": 10.0,
+              "max": 10,
+              "value": "269.5%"
+            },
+            {
+              "name": "自由现金流",
+              "score": 8.0,
+              "max": 8,
+              "value": "为正"
+            },
+            {
+              "name": "估值PE",
+              "score": 7.0,
+              "max": 7,
+              "value": "PE:10.9"
+            },
+            {
+              "name": "股息率",
+              "score": 1.5,
+              "max": 5,
+              "value": "0.00%"
+            }
+          ]
+        },
+        {
+          "category": "技术面",
+          "score": 26.5,
+          "max": 40,
+          "items": [
+            {
+              "name": "均线多头排列",
+              "score": 12.0,
+              "max": 12,
+              "value": "bullish"
+            },
+            {
+              "name": "尾盘拉升",
+              "score": 5.0,
+              "max": 8,
+              "value": "2.5%"
+            },
+            {
+              "name": "成交量趋势",
+              "score": 4.0,
+              "max": 8,
+              "value": "down_or_flat"
+            },
+            {
+              "name": "换手率",
+              "score": 1.5,
+              "max": 6,
+              "value": "0.9%"
+            },
+            {
+              "name": "行业热度",
+              "score": 4.0,
+              "max": 6,
+              "value": "5日涨2.8%"
+            }
+          ]
+        },
+        {
+          "category": "资金面",
+          "score": 20.0,
+          "max": 20,
+          "items": [
+            {
+              "name": "北向资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            },
+            {
+              "name": "主力资金",
+              "score": 5,
+              "max": 10,
+              "note": "待开发"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
