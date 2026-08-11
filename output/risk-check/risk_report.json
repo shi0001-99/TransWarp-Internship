@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-08-11 16:28:15",
+  "stage": "8_risk_check",
+  "backtest_summary": {
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe": 0.0,
+    "win_rate": 0.0,
+    "n_trades": 0
+  },
+  "portfolio_summary": {
+    "position_count": 5,
+    "total_pct": 0.0
+  },
+  "checks": [
+    {
+      "id": "H6",
+      "name": "凯利仓位使用半凯利 (kelly_scaling=0.5)",
+      "passed": true,
+      "detail": "默认值"
+    },
+    {
+      "id": "H9a",
+      "name": "单票最大仓位 ≤ 10%",
+      "passed": true,
+      "detail": "实际 0.00%"
+    },
+    {
+      "id": "H9b",
+      "name": "组合总仓位 ≤ 80%",
+      "passed": true,
+      "detail": "实际 0.00%"
+    },
+    {
+      "id": "H11",
+      "name": "最大持仓天数 ≤ 3 交易日 (T+3 强平规则)",
+      "passed": true,
+      "detail": "由 monitor.py run_once 强平执行"
+    },
+    {
+      "id": "H12",
+      "name": "日最大亏损容忍 2% 暂停当日交易",
+      "passed": true,
+      "detail": "运行时风控"
+    },
+    {
+      "id": "H13a",
+      "name": "组合预警线: 回撤达 3% 减半",
+      "passed": true,
+      "detail": "实际最大回撤 0.00%"
+    },
+    {
+      "id": "H13b",
+      "name": "组合熔断线: 回撤达 5% 停止买入",
+      "passed": true,
+      "detail": "实际最大回撤 0.00%"
+    }
+  ],
+  "all_passed": true,
+  "failed_count": 0,
+  "failed_ids": []
+}

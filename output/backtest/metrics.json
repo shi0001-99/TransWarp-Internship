@@ -1,0 +1,44 @@
+{
+  "metrics": {
+    "total_return": 0.174771,
+    "annual_return": 0.399218,
+    "annual_volatility": 0.277094,
+    "max_drawdown": -0.175769,
+    "sharpe": 1.360465,
+    "sortino": 1.438434,
+    "calmar": 2.271261,
+    "csi500_total_return": -0.04661,
+    "csi500_excess_return": 0.221381,
+    "csi500_alpha": 0.408439,
+    "csi500_beta": 0.573076,
+    "csi500_ir": 1.715024,
+    "hs300_total_return": -0.003719,
+    "hs300_excess_return": 0.17849,
+    "hs300_alpha": 0.366064,
+    "hs300_beta": 0.795945,
+    "hs300_ir": 1.606856,
+    "n_trades": 133,
+    "win_rate": 0.328125,
+    "profit_factor": 1.742674,
+    "avg_win": 18545.741905,
+    "avg_loss": -5197.313721,
+    "payoff_ratio": 3.568332,
+    "n_buys": 69,
+    "n_sells": 64,
+    "total_trade_value": 14288763.08
+  },
+  "meta": {
+    "generated_at": "2026-08-11 16:28:00",
+    "start_date": "2026-02-12",
+    "end_date": "2026-08-10",
+    "pool_size": 5,
+    "cfg": {
+      "initial_capital": 1000000.0,
+      "rebalance": "weekly",
+      "top_n": 5,
+      "max_single_fund": 0.1,
+      "stop_loss_ma20": true
+    },
+    "warnings": []
+  }
+}

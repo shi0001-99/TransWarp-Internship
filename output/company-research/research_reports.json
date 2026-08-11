@@ -1,0 +1,2704 @@
+[
+  {
+    "stock_code": "688256",
+    "analysis_time": "2026-08-11 15:47:02",
+    "success": true,
+    "stock_name": "寒武纪",
+    "current_price": 1090.64,
+    "realtime": {
+      "name": "寒武纪",
+      "open": 1100.0,
+      "prev_close": 1124.0,
+      "price": 1090.64,
+      "high": 1123.99,
+      "low": 1070.0,
+      "volume": 13416047.0,
+      "amount": 14751222439.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 1090.64,
+      "predicted_price": 1065.48,
+      "median_price": 1061.11,
+      "predicted_return": -2.31,
+      "up_probability": 41.2,
+      "down_probability": 58.8,
+      "confidence": 17.5,
+      "upper_bound": 1323.78,
+      "lower_bound": 840.83,
+      "support": 907.62,
+      "resistance": 1232.57,
+      "factor_contributions": {
+        "趋势": -9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.3
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      }
+    ],
+    "pattern_score": -1.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.11,
+    "signal_direction": "看空",
+    "score": 46,
+    "symbol": "688256",
+    "name": "寒武纪"
+  },
+  {
+    "stock_code": "300502",
+    "analysis_time": "2026-08-11 15:47:03",
+    "success": true,
+    "stock_name": "新易盛",
+    "current_price": 415.3,
+    "realtime": {
+      "name": "新易盛",
+      "open": 410.2,
+      "prev_close": 399.6,
+      "price": 415.3,
+      "high": 420.58,
+      "low": 398.88,
+      "volume": 48361225.0,
+      "amount": 19977399893.31,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 415.3,
+      "predicted_price": 405.7,
+      "median_price": 403.89,
+      "predicted_return": -2.31,
+      "up_probability": 41.5,
+      "down_probability": 58.5,
+      "confidence": 17.0,
+      "upper_bound": 509.04,
+      "lower_bound": 316.42,
+      "support": 342.69,
+      "resistance": 472.31,
+      "factor_contributions": {
+        "趋势": -9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.11,
+    "signal_direction": "看空",
+    "score": 46,
+    "symbol": "300502",
+    "name": "新易盛"
+  },
+  {
+    "stock_code": "688012",
+    "analysis_time": "2026-08-11 15:47:04",
+    "success": true,
+    "stock_name": "中微公司",
+    "current_price": 363.1,
+    "realtime": {
+      "name": "中微公司",
+      "open": 378.0,
+      "prev_close": 389.99,
+      "price": 363.1,
+      "high": 384.0,
+      "low": 362.0,
+      "volume": 30479199.0,
+      "amount": 11412088549.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 363.1,
+      "predicted_price": 371.1,
+      "median_price": 369.93,
+      "predicted_return": 2.2,
+      "up_probability": 57.0,
+      "down_probability": 43.0,
+      "confidence": 13.9,
+      "upper_bound": 449.07,
+      "lower_bound": 302.07,
+      "support": 323.18,
+      "resistance": 421.84,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.7
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "上升旗形",
+        "score": 2.0,
+        "description": "🟢 回调蓄势，看涨"
+      }
+    ],
+    "pattern_score": 2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.11,
+    "signal_direction": "看多",
+    "score": 53,
+    "symbol": "688012",
+    "name": "中微公司"
+  },
+  {
+    "stock_code": "300408",
+    "analysis_time": "2026-08-11 15:47:05",
+    "success": true,
+    "stock_name": "三环集团",
+    "current_price": 130.05,
+    "realtime": {
+      "name": "三环集团",
+      "open": 123.0,
+      "prev_close": 126.9,
+      "price": 130.05,
+      "high": 137.77,
+      "low": 123.0,
+      "volume": 90224594.0,
+      "amount": 11911361737.09,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 130.05,
+      "predicted_price": 136.6,
+      "median_price": 136.2,
+      "predicted_return": 5.03,
+      "up_probability": 67.4,
+      "down_probability": 32.6,
+      "confidence": 34.8,
+      "upper_bound": 164.26,
+      "lower_bound": 112.0,
+      "support": 119.55,
+      "resistance": 154.62,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "中性",
+    "score": 57,
+    "symbol": "300408",
+    "name": "三环集团"
+  },
+  {
+    "stock_code": "300476",
+    "analysis_time": "2026-08-11 15:47:06",
+    "success": true,
+    "stock_name": "胜宏科技",
+    "current_price": 274.53,
+    "realtime": {
+      "name": "胜宏科技",
+      "open": 280.0,
+      "prev_close": 286.0,
+      "price": 274.53,
+      "high": 282.77,
+      "low": 272.0,
+      "volume": 42662933.0,
+      "amount": 11819117379.94,
+      "date": "2026-08-11",
+      "time": "15:35:30"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 274.53,
+      "predicted_price": 288.33,
+      "median_price": 287.32,
+      "predicted_return": 5.03,
+      "up_probability": 65.6,
+      "down_probability": 34.4,
+      "confidence": 31.2,
+      "upper_bound": 352.5,
+      "lower_bound": 231.91,
+      "support": 248.92,
+      "resistance": 330.06,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.0
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "中性",
+    "score": 56,
+    "symbol": "300476",
+    "name": "胜宏科技"
+  },
+  {
+    "stock_code": "688008",
+    "analysis_time": "2026-08-11 15:47:06",
+    "success": true,
+    "stock_name": "澜起科技",
+    "current_price": 206.7,
+    "realtime": {
+      "name": "澜起科技",
+      "open": 203.55,
+      "prev_close": 206.92,
+      "price": 206.7,
+      "high": 214.4,
+      "low": 202.85,
+      "volume": 36166553.0,
+      "amount": 7554171345.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 206.7,
+      "predicted_price": 201.95,
+      "median_price": 201.3,
+      "predicted_return": -2.3,
+      "up_probability": 40.6,
+      "down_probability": 59.4,
+      "confidence": 18.8,
+      "upper_bound": 245.09,
+      "lower_bound": 163.84,
+      "support": 175.46,
+      "resistance": 230.02,
+      "factor_contributions": {
+        "趋势": -9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.7
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.11,
+    "signal_direction": "看空",
+    "score": 46,
+    "symbol": "688008",
+    "name": "澜起科技"
+  },
+  {
+    "stock_code": "688825",
+    "analysis_time": "2026-08-11 15:47:08",
+    "success": true,
+    "stock_name": "长鑫科技",
+    "current_price": 50.4,
+    "realtime": {
+      "name": "长鑫科技",
+      "open": 50.81,
+      "prev_close": 51.3,
+      "price": 50.4,
+      "high": 51.3,
+      "low": 50.05,
+      "volume": 284095105.0,
+      "amount": 14398885241.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 50.4,
+      "predicted_price": 50.4,
+      "predicted_return": 0,
+      "up_probability": 50,
+      "down_probability": 50,
+      "confidence": 0,
+      "risk_level": "未知"
+    },
+    "patterns": [
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      }
+    ],
+    "pattern_score": -1.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.02,
+    "signal_direction": "中性",
+    "score": 50,
+    "symbol": "688825",
+    "name": "长鑫科技"
+  },
+  {
+    "stock_code": "688072",
+    "analysis_time": "2026-08-11 15:47:08",
+    "success": true,
+    "stock_name": "拓荆科技",
+    "current_price": 700.0,
+    "realtime": {
+      "name": "拓荆科技",
+      "open": 710.0,
+      "prev_close": 728.0,
+      "price": 700.0,
+      "high": 728.42,
+      "low": 693.13,
+      "volume": 5923657.0,
+      "amount": 4217264500.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 700.0,
+      "predicted_price": 683.96,
+      "median_price": 682.05,
+      "predicted_return": -2.29,
+      "up_probability": 40.1,
+      "down_probability": 59.9,
+      "confidence": 19.9,
+      "upper_bound": 821.16,
+      "lower_bound": 561.86,
+      "support": 599.36,
+      "resistance": 773.38,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": -4.5,
+        "波动率": 4.5
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "上升旗形",
+        "score": 2.0,
+        "description": "🟢 回调蓄势，看涨"
+      },
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 2.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.08,
+    "signal_direction": "中性",
+    "score": 47,
+    "symbol": "688072",
+    "name": "拓荆科技"
+  },
+  {
+    "stock_code": "300433",
+    "analysis_time": "2026-08-11 15:47:09",
+    "success": true,
+    "stock_name": "蓝思科技",
+    "current_price": 34.6,
+    "realtime": {
+      "name": "蓝思科技",
+      "open": 34.5,
+      "prev_close": 34.89,
+      "price": 34.6,
+      "high": 35.19,
+      "low": 33.92,
+      "volume": 75548286.0,
+      "amount": 2622366878.87,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 34.6,
+      "predicted_price": 35.37,
+      "median_price": 35.29,
+      "predicted_return": 2.21,
+      "up_probability": 58.4,
+      "down_probability": 41.6,
+      "confidence": 16.7,
+      "upper_bound": 41.83,
+      "lower_bound": 29.56,
+      "support": 31.35,
+      "resistance": 39.6,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.1
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "十字星",
+        "score": 1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -0.83,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 53,
+    "symbol": "300433",
+    "name": "蓝思科技"
+  },
+  {
+    "stock_code": "688498",
+    "analysis_time": "2026-08-11 15:47:10",
+    "success": true,
+    "stock_name": "源杰科技",
+    "current_price": 1351.0,
+    "realtime": {
+      "name": "源杰科技",
+      "open": 1380.0,
+      "prev_close": 1415.1,
+      "price": 1351.0,
+      "high": 1396.0,
+      "low": 1291.0,
+      "volume": 5239153.0,
+      "amount": 7081205704.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 1351.0,
+      "predicted_price": 1380.31,
+      "median_price": 1372.49,
+      "predicted_return": 2.17,
+      "up_probability": 53.8,
+      "down_probability": 46.2,
+      "confidence": 7.5,
+      "upper_bound": 1780.24,
+      "lower_bound": 1041.17,
+      "support": 1138.86,
+      "resistance": 1636.05,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 6.4
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.0,
+    "signal_direction": "中性",
+    "score": 52,
+    "symbol": "688498",
+    "name": "源杰科技"
+  },
+  {
+    "stock_code": "300124",
+    "analysis_time": "2026-08-11 15:47:10",
+    "success": true,
+    "stock_name": "汇川技术",
+    "current_price": 63.97,
+    "realtime": {
+      "name": "汇川技术",
+      "open": 64.01,
+      "prev_close": 64.34,
+      "price": 63.97,
+      "high": 65.0,
+      "low": 63.79,
+      "volume": 19873123.0,
+      "amount": 1278367575.71,
+      "date": "2026-08-11",
+      "time": "15:35:00"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 63.97,
+      "predicted_price": 65.4,
+      "median_price": 65.38,
+      "predicted_return": 2.24,
+      "up_probability": 65.4,
+      "down_probability": 34.6,
+      "confidence": 30.9,
+      "upper_bound": 72.22,
+      "lower_bound": 59.01,
+      "support": 61.07,
+      "resistance": 69.92,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 2.4
+      },
+      "risk_level": "中"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "十字星",
+        "score": -1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -1.75,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 56,
+    "symbol": "300124",
+    "name": "汇川技术"
+  },
+  {
+    "stock_code": "688082",
+    "analysis_time": "2026-08-11 15:47:11",
+    "success": true,
+    "stock_name": "盛美上海",
+    "current_price": 311.95,
+    "realtime": {
+      "name": "盛美上海",
+      "open": 320.79,
+      "prev_close": 323.02,
+      "price": 311.95,
+      "high": 323.98,
+      "low": 303.9,
+      "volume": 8942140.0,
+      "amount": 2818057878.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 311.95,
+      "predicted_price": 327.65,
+      "median_price": 326.65,
+      "predicted_return": 5.03,
+      "up_probability": 67.1,
+      "down_probability": 32.9,
+      "confidence": 34.2,
+      "upper_bound": 395.31,
+      "lower_bound": 267.63,
+      "support": 286.02,
+      "resistance": 371.69,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 3.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.12,
+    "signal_direction": "看多",
+    "score": 57,
+    "symbol": "688082",
+    "name": "盛美上海"
+  },
+  {
+    "stock_code": "300604",
+    "analysis_time": "2026-08-11 15:47:11",
+    "success": true,
+    "stock_name": "长川科技",
+    "current_price": 281.04,
+    "realtime": {
+      "name": "长川科技",
+      "open": 283.05,
+      "prev_close": 288.08,
+      "price": 281.04,
+      "high": 289.66,
+      "low": 278.88,
+      "volume": 16920286.0,
+      "amount": 4811629099.67,
+      "date": "2026-08-11",
+      "time": "15:35:15"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 281.04,
+      "predicted_price": 295.16,
+      "median_price": 294.07,
+      "predicted_return": 5.02,
+      "up_probability": 65.2,
+      "down_probability": 34.8,
+      "confidence": 30.4,
+      "upper_bound": 362.34,
+      "lower_bound": 236.25,
+      "support": 253.9,
+      "resistance": 338.8,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.1
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 3.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.12,
+    "signal_direction": "看多",
+    "score": 57,
+    "symbol": "300604",
+    "name": "长川科技"
+  },
+  {
+    "stock_code": "688120",
+    "analysis_time": "2026-08-11 15:47:12",
+    "success": true,
+    "stock_name": "华海清科",
+    "current_price": 268.33,
+    "realtime": {
+      "name": "华海清科",
+      "open": 258.31,
+      "prev_close": 263.53,
+      "price": 268.33,
+      "high": 278.5,
+      "low": 258.23,
+      "volume": 16133669.0,
+      "amount": 4372927292.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 268.33,
+      "predicted_price": 274.25,
+      "median_price": 273.44,
+      "predicted_return": 2.2,
+      "up_probability": 57.3,
+      "down_probability": 42.7,
+      "confidence": 14.6,
+      "upper_bound": 330.06,
+      "lower_bound": 224.66,
+      "support": 239.87,
+      "resistance": 310.6,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "三连阳",
+        "score": 1.5,
+        "description": "🟢 多头强势"
+      },
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 2.25,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.12,
+    "signal_direction": "看多",
+    "score": 53,
+    "symbol": "688120",
+    "name": "华海清科"
+  },
+  {
+    "stock_code": "300857",
+    "analysis_time": "2026-08-11 15:47:13",
+    "success": true,
+    "stock_name": "协创数据",
+    "current_price": 245.22,
+    "realtime": {
+      "name": "协创数据",
+      "open": 250.0,
+      "prev_close": 252.1,
+      "price": 245.22,
+      "high": 253.3,
+      "low": 244.53,
+      "volume": 14787509.0,
+      "amount": 3675005314.99,
+      "date": "2026-08-11",
+      "time": "15:35:30"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 245.22,
+      "predicted_price": 250.59,
+      "median_price": 249.55,
+      "predicted_return": 2.19,
+      "up_probability": 55.6,
+      "down_probability": 44.4,
+      "confidence": 11.3,
+      "upper_bound": 311.58,
+      "lower_bound": 197.57,
+      "support": 213.33,
+      "resistance": 290.03,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.4
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -1.75,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 52,
+    "symbol": "300857",
+    "name": "协创数据"
+  },
+  {
+    "stock_code": "688525",
+    "analysis_time": "2026-08-11 15:47:14",
+    "success": true,
+    "stock_name": "佰维存储",
+    "current_price": 242.06,
+    "realtime": {
+      "name": "佰维存储",
+      "open": 238.9,
+      "prev_close": 242.0,
+      "price": 242.06,
+      "high": 251.0,
+      "low": 238.06,
+      "volume": 31731712.0,
+      "amount": 7794862653.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 242.06,
+      "predicted_price": 247.35,
+      "median_price": 246.28,
+      "predicted_return": 2.19,
+      "up_probability": 55.4,
+      "down_probability": 44.6,
+      "confidence": 10.7,
+      "upper_bound": 309.34,
+      "lower_bound": 193.68,
+      "support": 209.55,
+      "resistance": 287.36,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 0.25,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "看多",
+    "score": 52,
+    "symbol": "688525",
+    "name": "佰维存储"
+  },
+  {
+    "stock_code": "300442",
+    "analysis_time": "2026-08-11 15:47:14",
+    "success": true,
+    "stock_name": "润泽科技",
+    "current_price": 67.85,
+    "realtime": {
+      "name": "润泽科技",
+      "open": 68.93,
+      "prev_close": 67.68,
+      "price": 67.85,
+      "high": 69.37,
+      "low": 66.58,
+      "volume": 27314211.0,
+      "amount": 1860746431.67,
+      "date": "2026-08-11",
+      "time": "15:35:00"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 67.85,
+      "predicted_price": 69.35,
+      "median_price": 69.2,
+      "predicted_return": 2.21,
+      "up_probability": 58.2,
+      "down_probability": 41.8,
+      "confidence": 16.3,
+      "upper_bound": 82.21,
+      "lower_bound": 57.81,
+      "support": 61.38,
+      "resistance": 77.76,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.2
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 53,
+    "symbol": "300442",
+    "name": "润泽科技"
+  },
+  {
+    "stock_code": "688347",
+    "analysis_time": "2026-08-11 15:47:15",
+    "success": true,
+    "stock_name": "华虹宏力",
+    "current_price": 262.5,
+    "realtime": {
+      "name": "华虹宏力",
+      "open": 261.11,
+      "prev_close": 264.0,
+      "price": 262.5,
+      "high": 270.69,
+      "low": 256.43,
+      "volume": 16145803.0,
+      "amount": 4267830392.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 262.5,
+      "predicted_price": 264.25,
+      "median_price": 263.09,
+      "predicted_return": 0.67,
+      "up_probability": 50.7,
+      "down_probability": 49.3,
+      "confidence": 1.4,
+      "upper_bound": 331.06,
+      "lower_bound": 206.48,
+      "support": 223.52,
+      "resistance": 307.34,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 6.0,
+        "MACD": -4.5,
+        "波动率": 5.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "十字星",
+        "score": 1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "上升旗形",
+        "score": 2.0,
+        "description": "🟢 回调蓄势，看涨"
+      }
+    ],
+    "pattern_score": 0.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.0,
+    "signal_direction": "中性",
+    "score": 60,
+    "symbol": "688347",
+    "name": "华虹宏力"
+  },
+  {
+    "stock_code": "300033",
+    "analysis_time": "2026-08-11 15:47:16",
+    "success": true,
+    "stock_name": "同花顺",
+    "current_price": 235.99,
+    "realtime": {
+      "name": "同花顺",
+      "open": 237.8,
+      "prev_close": 238.51,
+      "price": 235.99,
+      "high": 241.91,
+      "low": 235.1,
+      "volume": 11512106.0,
+      "amount": 2749960233.92,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 235.99,
+      "predicted_price": 241.23,
+      "median_price": 240.87,
+      "predicted_return": 2.22,
+      "up_probability": 59.6,
+      "down_probability": 40.4,
+      "confidence": 19.1,
+      "upper_bound": 279.7,
+      "lower_bound": 206.2,
+      "support": 217.28,
+      "resistance": 266.54,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 3.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 53,
+    "symbol": "300033",
+    "name": "同花顺"
+  },
+  {
+    "stock_code": "688200",
+    "analysis_time": "2026-08-11 15:47:16",
+    "success": true,
+    "stock_name": "华峰测控",
+    "current_price": 416.3,
+    "realtime": {
+      "name": "华峰测控",
+      "open": 425.0,
+      "prev_close": 422.1,
+      "price": 416.3,
+      "high": 425.0,
+      "low": 399.01,
+      "volume": 4118454.0,
+      "amount": 1695509313.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 416.3,
+      "predicted_price": 437.22,
+      "median_price": 435.65,
+      "predicted_return": 5.03,
+      "up_probability": 65.4,
+      "down_probability": 34.6,
+      "confidence": 30.9,
+      "upper_bound": 535.4,
+      "lower_bound": 351.0,
+      "support": 376.93,
+      "resistance": 501.04,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.0
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "锤子线",
+        "score": 2.5,
+        "description": "🟢 下影线长，反弹概率大"
+      },
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 2.75,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.12,
+    "signal_direction": "看多",
+    "score": 57,
+    "symbol": "688200",
+    "name": "华峰测控"
+  },
+  {
+    "stock_code": "688396",
+    "analysis_time": "2026-08-11 15:47:17",
+    "success": true,
+    "stock_name": "华润微",
+    "current_price": 59.72,
+    "realtime": {
+      "name": "华润微",
+      "open": 59.45,
+      "prev_close": 60.02,
+      "price": 59.72,
+      "high": 61.08,
+      "low": 59.25,
+      "volume": 14437682.0,
+      "amount": 868647936.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 59.72,
+      "predicted_price": 61.04,
+      "median_price": 60.94,
+      "predicted_return": 2.22,
+      "up_probability": 59.0,
+      "down_probability": 40.9,
+      "confidence": 18.1,
+      "upper_bound": 71.24,
+      "lower_bound": 51.8,
+      "support": 54.71,
+      "resistance": 67.74,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 3.8
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      }
+    ],
+    "pattern_score": -2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 53,
+    "symbol": "688396",
+    "name": "华润微"
+  },
+  {
+    "stock_code": "688777",
+    "analysis_time": "2026-08-11 15:47:18",
+    "success": true,
+    "stock_name": "中控技术",
+    "current_price": 98.78,
+    "realtime": {
+      "name": "中控技术",
+      "open": 102.97,
+      "prev_close": 103.0,
+      "price": 98.78,
+      "high": 104.5,
+      "low": 98.29,
+      "volume": 19005767.0,
+      "amount": 1919607465.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 98.78,
+      "predicted_price": 100.97,
+      "median_price": 100.81,
+      "predicted_return": 2.22,
+      "up_probability": 59.2,
+      "down_probability": 40.8,
+      "confidence": 18.3,
+      "upper_bound": 117.66,
+      "lower_bound": 85.83,
+      "support": 90.59,
+      "resistance": 111.93,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 3.7
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      },
+      {
+        "name": "V型顶",
+        "score": -3.0,
+        "description": "🔴 V型反转，看跌"
+      }
+    ],
+    "pattern_score": -2.17,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 53,
+    "symbol": "688777",
+    "name": "中控技术"
+  },
+  {
+    "stock_code": "688002",
+    "analysis_time": "2026-08-11 15:47:19",
+    "success": true,
+    "stock_name": "睿创微纳",
+    "current_price": 166.75,
+    "realtime": {
+      "name": "睿创微纳",
+      "open": 169.0,
+      "prev_close": 169.0,
+      "price": 166.75,
+      "high": 175.42,
+      "low": 166.2,
+      "volume": 13366465.0,
+      "amount": 2282362454.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 166.75,
+      "predicted_price": 175.17,
+      "median_price": 174.93,
+      "predicted_return": 5.05,
+      "up_probability": 72.7,
+      "down_probability": 27.3,
+      "confidence": 45.4,
+      "upper_bound": 202.31,
+      "lower_bound": 150.4,
+      "support": 158.27,
+      "resistance": 193.05,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 3.5
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      }
+    ],
+    "pattern_score": -2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 59,
+    "symbol": "688002",
+    "name": "睿创微纳"
+  },
+  {
+    "stock_code": "300475",
+    "analysis_time": "2026-08-11 15:47:21",
+    "success": true,
+    "stock_name": "香农芯创",
+    "current_price": 158.0,
+    "realtime": {
+      "name": "香农芯创",
+      "open": 154.0,
+      "prev_close": 156.64,
+      "price": 158.0,
+      "high": 161.8,
+      "low": 153.3,
+      "volume": 29381759.0,
+      "amount": 4641486310.62,
+      "date": "2026-08-11",
+      "time": "15:35:15"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 158.0,
+      "predicted_price": 161.43,
+      "median_price": 160.58,
+      "predicted_return": 2.17,
+      "up_probability": 54.0,
+      "down_probability": 46.1,
+      "confidence": 7.9,
+      "upper_bound": 206.93,
+      "lower_bound": 122.69,
+      "support": 133.9,
+      "resistance": 190.55,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 6.2
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 3.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.03,
+    "signal_direction": "中性",
+    "score": 52,
+    "symbol": "300475",
+    "name": "香农芯创"
+  },
+  {
+    "stock_code": "300661",
+    "analysis_time": "2026-08-11 15:47:22",
+    "success": true,
+    "stock_name": "圣邦股份",
+    "current_price": 115.49,
+    "realtime": {
+      "name": "圣邦股份",
+      "open": 110.84,
+      "prev_close": 110.27,
+      "price": 115.49,
+      "high": 118.5,
+      "low": 110.5,
+      "volume": 19330898.0,
+      "amount": 2234765621.34,
+      "date": "2026-08-11",
+      "time": "15:35:00"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 115.49,
+      "predicted_price": 121.32,
+      "median_price": 121.13,
+      "predicted_return": 5.05,
+      "up_probability": 71.8,
+      "down_probability": 28.2,
+      "confidence": 43.6,
+      "upper_bound": 141.12,
+      "lower_bound": 103.33,
+      "support": 109.0,
+      "resistance": 134.34,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 3.7
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "中性",
+    "score": 59,
+    "symbol": "300661",
+    "name": "圣邦股份"
+  },
+  {
+    "stock_code": "300620",
+    "analysis_time": "2026-08-11 15:47:23",
+    "success": true,
+    "stock_name": "光库科技",
+    "current_price": 281.0,
+    "realtime": {
+      "name": "光库科技",
+      "open": 275.4,
+      "prev_close": 284.5,
+      "price": 281.0,
+      "high": 288.71,
+      "low": 275.4,
+      "volume": 9407364.0,
+      "amount": 2663622008.93,
+      "date": "2026-08-11",
+      "time": "15:35:15"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 281.0,
+      "predicted_price": 295.06,
+      "median_price": 293.53,
+      "predicted_return": 5.0,
+      "up_probability": 61.8,
+      "down_probability": 38.2,
+      "confidence": 23.5,
+      "upper_bound": 377.23,
+      "lower_bound": 224.96,
+      "support": 245.26,
+      "resistance": 347.68,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 6.2
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "双底",
+        "score": 3.5,
+        "description": "🟢 双底形态，突破颈线"
+      }
+    ],
+    "pattern_score": 1.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.11,
+    "signal_direction": "看多",
+    "score": 55,
+    "symbol": "300620",
+    "name": "光库科技"
+  },
+  {
+    "stock_code": "688629",
+    "analysis_time": "2026-08-11 15:47:24",
+    "success": true,
+    "stock_name": "华丰科技",
+    "current_price": 147.78,
+    "realtime": {
+      "name": "华丰科技",
+      "open": 147.33,
+      "prev_close": 149.3,
+      "price": 147.78,
+      "high": 153.0,
+      "low": 146.2,
+      "volume": 11741441.0,
+      "amount": 1754329339.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 147.78,
+      "predicted_price": 155.2,
+      "median_price": 154.58,
+      "predicted_return": 5.02,
+      "up_probability": 64.2,
+      "down_probability": 35.8,
+      "confidence": 28.4,
+      "upper_bound": 192.16,
+      "lower_bound": 122.98,
+      "support": 132.57,
+      "resistance": 179.14,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.3
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "十字星",
+        "score": 1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      }
+    ],
+    "pattern_score": -1.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.09,
+    "signal_direction": "中性",
+    "score": 55,
+    "symbol": "688629",
+    "name": "华丰科技"
+  },
+  {
+    "stock_code": "300759",
+    "analysis_time": "2026-08-11 15:47:25",
+    "success": true,
+    "stock_name": "康龙化成",
+    "current_price": 47.59,
+    "realtime": {
+      "name": "康龙化成",
+      "open": 47.44,
+      "prev_close": 47.03,
+      "price": 47.59,
+      "high": 50.23,
+      "low": 46.0,
+      "volume": 117850698.0,
+      "amount": 5670867692.28,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 47.59,
+      "predicted_price": 49.38,
+      "median_price": 49.35,
+      "predicted_return": 3.77,
+      "up_probability": 70.6,
+      "down_probability": 29.4,
+      "confidence": 41.1,
+      "upper_bound": 55.84,
+      "lower_bound": 43.41,
+      "support": 45.33,
+      "resistance": 53.64,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": -6.0,
+        "MACD": 4.5,
+        "波动率": 3.0
+      },
+      "risk_level": "中"
+    },
+    "patterns": [
+      {
+        "name": "十字星",
+        "score": 1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "三连阳",
+        "score": 1.5,
+        "description": "🟢 多头强势"
+      },
+      {
+        "name": "双底",
+        "score": 3.5,
+        "description": "🟢 双底形态，突破颈线"
+      },
+      {
+        "name": "突破",
+        "score": 2.5,
+        "description": "🟢 突破压力位42.00"
+      }
+    ],
+    "pattern_score": 2.12,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.11,
+    "signal_direction": "看多",
+    "score": 49,
+    "symbol": "300759",
+    "name": "康龙化成"
+  },
+  {
+    "stock_code": "688519",
+    "analysis_time": "2026-08-11 15:47:26",
+    "success": true,
+    "stock_name": "南亚新材",
+    "current_price": 285.0,
+    "realtime": {
+      "name": "南亚新材",
+      "open": 289.0,
+      "prev_close": 303.02,
+      "price": 285.0,
+      "high": 298.47,
+      "low": 279.01,
+      "volume": 9045126.0,
+      "amount": 2596301485.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 285.0,
+      "predicted_price": 299.25,
+      "median_price": 297.64,
+      "predicted_return": 5.0,
+      "up_probability": 61.5,
+      "down_probability": 38.5,
+      "confidence": 23.0,
+      "upper_bound": 384.21,
+      "lower_bound": 226.98,
+      "support": 247.86,
+      "resistance": 353.6,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 6.3
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "双底",
+        "score": 3.5,
+        "description": "🟢 双底形态，突破颈线"
+      }
+    ],
+    "pattern_score": 3.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.12,
+    "signal_direction": "看多",
+    "score": 55,
+    "symbol": "688519",
+    "name": "南亚新材"
+  },
+  {
+    "stock_code": "688017",
+    "analysis_time": "2026-08-11 15:47:27",
+    "success": true,
+    "stock_name": "绿的谐波",
+    "current_price": 365.0,
+    "realtime": {
+      "name": "绿的谐波",
+      "open": 333.89,
+      "prev_close": 333.89,
+      "price": 365.0,
+      "high": 371.6,
+      "low": 327.37,
+      "volume": 15632591.0,
+      "amount": 5477268895.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 365.0,
+      "predicted_price": 383.37,
+      "median_price": 382.18,
+      "predicted_return": 5.03,
+      "up_probability": 67.0,
+      "down_probability": 33.1,
+      "confidence": 33.9,
+      "upper_bound": 463.41,
+      "lower_bound": 312.45,
+      "support": 334.15,
+      "resistance": 435.45,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.7
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "大阳线",
+        "score": 1.5,
+        "description": "🟢 多头强势"
+      },
+      {
+        "name": "看涨吞没",
+        "score": 3.0,
+        "description": "🟢 阳线包裹阴线，反转看涨"
+      }
+    ],
+    "pattern_score": 2.25,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.12,
+    "signal_direction": "看多",
+    "score": 57,
+    "symbol": "688017",
+    "name": "绿的谐波"
+  },
+  {
+    "stock_code": "688409",
+    "analysis_time": "2026-08-11 15:47:29",
+    "success": true,
+    "stock_name": "富创精密",
+    "current_price": 206.88,
+    "realtime": {
+      "name": "富创精密",
+      "open": 208.0,
+      "prev_close": 210.0,
+      "price": 206.88,
+      "high": 216.63,
+      "low": 204.03,
+      "volume": 8442565.0,
+      "amount": 1776232577.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 206.88,
+      "predicted_price": 217.27,
+      "median_price": 216.46,
+      "predicted_return": 5.02,
+      "up_probability": 65.0,
+      "down_probability": 35.1,
+      "confidence": 29.9,
+      "upper_bound": 267.2,
+      "lower_bound": 173.55,
+      "support": 186.62,
+      "resistance": 249.68,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.1
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "十字星",
+        "score": -1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 1.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.11,
+    "signal_direction": "看多",
+    "score": 56,
+    "symbol": "688409",
+    "name": "富创精密"
+  },
+  {
+    "stock_code": "300285",
+    "analysis_time": "2026-08-11 15:47:30",
+    "success": true,
+    "stock_name": "国瓷材料",
+    "current_price": 72.88,
+    "realtime": {
+      "name": "国瓷材料",
+      "open": 74.02,
+      "prev_close": 76.11,
+      "price": 72.88,
+      "high": 83.64,
+      "low": 72.5,
+      "volume": 199560146.0,
+      "amount": 15519228393.94,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 72.88,
+      "predicted_price": 76.54,
+      "median_price": 76.25,
+      "predicted_return": 5.02,
+      "up_probability": 64.5,
+      "down_probability": 35.5,
+      "confidence": 29.0,
+      "upper_bound": 94.39,
+      "lower_bound": 60.94,
+      "support": 65.59,
+      "resistance": 88.11,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.2
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": 0.25,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "看多",
+    "score": 56,
+    "symbol": "300285",
+    "name": "国瓷材料"
+  },
+  {
+    "stock_code": "688313",
+    "analysis_time": "2026-08-11 15:47:31",
+    "success": true,
+    "stock_name": "仕佳光子",
+    "current_price": 130.5,
+    "realtime": {
+      "name": "仕佳光子",
+      "open": 128.79,
+      "prev_close": 134.01,
+      "price": 130.5,
+      "high": 133.36,
+      "low": 125.57,
+      "volume": 24585950.0,
+      "amount": 3194480048.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 130.5,
+      "predicted_price": 137.04,
+      "median_price": 136.41,
+      "predicted_return": 5.01,
+      "up_probability": 63.1,
+      "down_probability": 36.9,
+      "confidence": 26.2,
+      "upper_bound": 172.46,
+      "lower_bound": 106.5,
+      "support": 115.45,
+      "resistance": 159.85,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.7
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "中性",
+    "score": 55,
+    "symbol": "688313",
+    "name": "仕佳光子"
+  },
+  {
+    "stock_code": "300223",
+    "analysis_time": "2026-08-11 15:47:32",
+    "success": true,
+    "stock_name": "北京君正",
+    "current_price": 137.86,
+    "realtime": {
+      "name": "北京君正",
+      "open": 136.19,
+      "prev_close": 138.48,
+      "price": 137.86,
+      "high": 141.66,
+      "low": 136.19,
+      "volume": 30955563.0,
+      "amount": 4303817777.73,
+      "date": "2026-08-11",
+      "time": "15:35:15"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 137.86,
+      "predicted_price": 134.69,
+      "median_price": 134.19,
+      "predicted_return": -2.3,
+      "up_probability": 41.1,
+      "down_probability": 58.9,
+      "confidence": 17.8,
+      "upper_bound": 165.47,
+      "lower_bound": 107.71,
+      "support": 115.78,
+      "resistance": 154.68,
+      "factor_contributions": {
+        "趋势": -9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.0
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      }
+    ],
+    "pattern_score": -2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.11,
+    "signal_direction": "看空",
+    "score": 46,
+    "symbol": "300223",
+    "name": "北京君正"
+  },
+  {
+    "stock_code": "688766",
+    "analysis_time": "2026-08-11 15:47:33",
+    "success": true,
+    "stock_name": "普冉股份",
+    "current_price": 384.5,
+    "realtime": {
+      "name": "普冉股份",
+      "open": 365.0,
+      "prev_close": 374.5,
+      "price": 384.5,
+      "high": 388.89,
+      "low": 360.07,
+      "volume": 14989125.0,
+      "amount": 5667623525.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 384.5,
+      "predicted_price": 392.84,
+      "median_price": 390.52,
+      "predicted_return": 2.17,
+      "up_probability": 53.8,
+      "down_probability": 46.2,
+      "confidence": 7.5,
+      "upper_bound": 508.41,
+      "lower_bound": 295.05,
+      "support": 323.15,
+      "resistance": 466.74,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 6.5
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.0,
+    "signal_direction": "中性",
+    "score": 52,
+    "symbol": "688766",
+    "name": "普冉股份"
+  },
+  {
+    "stock_code": "300054",
+    "analysis_time": "2026-08-11 15:47:35",
+    "success": true,
+    "stock_name": "鼎龙股份",
+    "current_price": 76.52,
+    "realtime": {
+      "name": "鼎龙股份",
+      "open": 77.3,
+      "prev_close": 78.65,
+      "price": 76.52,
+      "high": 79.0,
+      "low": 76.22,
+      "volume": 27916200.0,
+      "amount": 2161364828.65,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 76.52,
+      "predicted_price": 78.21,
+      "median_price": 78.06,
+      "predicted_return": 2.21,
+      "up_probability": 58.6,
+      "down_probability": 41.4,
+      "confidence": 17.1,
+      "upper_bound": 92.27,
+      "lower_bound": 65.56,
+      "support": 69.49,
+      "resistance": 87.42,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.0
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      }
+    ],
+    "pattern_score": -2.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.08,
+    "signal_direction": "中性",
+    "score": 53,
+    "symbol": "300054",
+    "name": "鼎龙股份"
+  },
+  {
+    "stock_code": "688019",
+    "analysis_time": "2026-08-11 15:47:37",
+    "success": true,
+    "stock_name": "安集科技",
+    "current_price": 246.0,
+    "realtime": {
+      "name": "安集科技",
+      "open": 249.0,
+      "prev_close": 253.08,
+      "price": 246.0,
+      "high": 255.4,
+      "low": 243.99,
+      "volume": 5992119.0,
+      "amount": 1492557467.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 246.0,
+      "predicted_price": 251.43,
+      "median_price": 250.79,
+      "predicted_return": 2.21,
+      "up_probability": 57.6,
+      "down_probability": 42.4,
+      "confidence": 15.2,
+      "upper_bound": 300.65,
+      "lower_bound": 207.51,
+      "support": 221.03,
+      "resistance": 283.54,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.4
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "上升旗形",
+        "score": 2.0,
+        "description": "🟢 回调蓄势，看涨"
+      }
+    ],
+    "pattern_score": 2.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.11,
+    "signal_direction": "看多",
+    "score": 53,
+    "symbol": "688019",
+    "name": "安集科技"
+  },
+  {
+    "stock_code": "688630",
+    "analysis_time": "2026-08-11 15:47:38",
+    "success": true,
+    "stock_name": "芯碁微装",
+    "current_price": 415.0,
+    "realtime": {
+      "name": "芯碁微装",
+      "open": 421.02,
+      "prev_close": 430.3,
+      "price": 415.0,
+      "high": 434.66,
+      "low": 414.0,
+      "volume": 4063489.0,
+      "amount": 1719584799.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 415.0,
+      "predicted_price": 435.84,
+      "median_price": 434.13,
+      "predicted_return": 5.02,
+      "up_probability": 64.4,
+      "down_probability": 35.7,
+      "confidence": 28.7,
+      "upper_bound": 538.4,
+      "lower_bound": 346.29,
+      "support": 372.98,
+      "resistance": 502.31,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.3
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      }
+    ],
+    "pattern_score": -2.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.08,
+    "signal_direction": "中性",
+    "score": 55,
+    "symbol": "688630",
+    "name": "芯碁微装"
+  },
+  {
+    "stock_code": "300058",
+    "analysis_time": "2026-08-11 15:47:38",
+    "success": true,
+    "stock_name": "蓝色光标",
+    "current_price": 15.6,
+    "realtime": {
+      "name": "蓝色光标",
+      "open": 16.08,
+      "prev_close": 16.08,
+      "price": 15.6,
+      "high": 16.1,
+      "low": 15.52,
+      "volume": 409837627.0,
+      "amount": 6458409234.64,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 15.6,
+      "predicted_price": 15.47,
+      "median_price": 15.41,
+      "predicted_return": -0.82,
+      "up_probability": 46.2,
+      "down_probability": 53.8,
+      "confidence": 7.6,
+      "upper_bound": 19.0,
+      "lower_bound": 12.38,
+      "support": 13.31,
+      "resistance": 17.76,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": -6.0,
+        "MACD": 4.5,
+        "波动率": 5.0
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "大阴线",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      },
+      {
+        "name": "看跌吞没",
+        "score": -3.0,
+        "description": "🔴 阴线包裹阳线，反转看跌"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": -2.17,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.02,
+    "signal_direction": "中性",
+    "score": 38,
+    "symbol": "300058",
+    "name": "蓝色光标"
+  },
+  {
+    "stock_code": "300316",
+    "analysis_time": "2026-08-11 15:47:40",
+    "success": true,
+    "stock_name": "晶盛机电",
+    "current_price": 42.47,
+    "realtime": {
+      "name": "晶盛机电",
+      "open": 41.4,
+      "prev_close": 41.66,
+      "price": 42.47,
+      "high": 43.19,
+      "low": 41.2,
+      "volume": 18267907.0,
+      "amount": 774434978.38,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 42.47,
+      "predicted_price": 44.61,
+      "median_price": 44.49,
+      "predicted_return": 5.04,
+      "up_probability": 68.0,
+      "down_probability": 32.0,
+      "confidence": 35.9,
+      "upper_bound": 53.4,
+      "lower_bound": 36.77,
+      "support": 39.18,
+      "resistance": 50.34,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.4
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "看涨吞没",
+        "score": 3.0,
+        "description": "🟢 阳线包裹阴线，反转看涨"
+      }
+    ],
+    "pattern_score": 3.0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.12,
+    "signal_direction": "看多",
+    "score": 58,
+    "symbol": "300316",
+    "name": "晶盛机电"
+  },
+  {
+    "stock_code": "300373",
+    "analysis_time": "2026-08-11 15:47:41",
+    "success": true,
+    "stock_name": "扬杰科技",
+    "current_price": 96.2,
+    "realtime": {
+      "name": "扬杰科技",
+      "open": 93.5,
+      "prev_close": 94.11,
+      "price": 96.2,
+      "high": 99.2,
+      "low": 92.77,
+      "volume": 15645375.0,
+      "amount": 1509709350.81,
+      "date": "2026-08-11",
+      "time": "15:35:45"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 96.2,
+      "predicted_price": 101.05,
+      "median_price": 100.85,
+      "predicted_return": 5.04,
+      "up_probability": 69.9,
+      "down_probability": 30.1,
+      "confidence": 39.8,
+      "upper_bound": 119.22,
+      "lower_bound": 84.69,
+      "support": 89.77,
+      "resistance": 112.95,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 4.1
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "中性",
+    "score": 58,
+    "symbol": "300373",
+    "name": "扬杰科技"
+  },
+  {
+    "stock_code": "688147",
+    "analysis_time": "2026-08-11 15:47:42",
+    "success": true,
+    "stock_name": "微导纳米",
+    "current_price": 110.85,
+    "realtime": {
+      "name": "微导纳米",
+      "open": 109.9,
+      "prev_close": 110.48,
+      "price": 110.85,
+      "high": 115.4,
+      "low": 105.5,
+      "volume": 11056096.0,
+      "amount": 1225221612.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 110.85,
+      "predicted_price": 113.27,
+      "median_price": 112.78,
+      "predicted_return": 2.19,
+      "up_probability": 55.2,
+      "down_probability": 44.8,
+      "confidence": 10.5,
+      "upper_bound": 141.73,
+      "lower_bound": 88.64,
+      "support": 95.92,
+      "resistance": 131.64,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.6
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "十字星",
+        "score": 1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "三连阳",
+        "score": 1.5,
+        "description": "🟢 多头强势"
+      }
+    ],
+    "pattern_score": 1.25,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.11,
+    "signal_direction": "看多",
+    "score": 52,
+    "symbol": "688147",
+    "name": "微导纳米"
+  },
+  {
+    "stock_code": "300548",
+    "analysis_time": "2026-08-11 15:47:43",
+    "success": true,
+    "stock_name": "长芯博创",
+    "current_price": 173.91,
+    "realtime": {
+      "name": "长芯博创",
+      "open": 168.44,
+      "prev_close": 171.15,
+      "price": 173.91,
+      "high": 178.0,
+      "low": 167.01,
+      "volume": 14890476.0,
+      "amount": 2588820925.81,
+      "date": "2026-08-11",
+      "time": "15:35:30"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 173.91,
+      "predicted_price": 182.62,
+      "median_price": 181.77,
+      "predicted_return": 5.01,
+      "up_probability": 63.0,
+      "down_probability": 37.1,
+      "confidence": 25.9,
+      "upper_bound": 230.37,
+      "lower_bound": 141.52,
+      "support": 153.55,
+      "resistance": 213.34,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.8
+      },
+      "risk_level": "高"
+    },
+    "patterns": [],
+    "pattern_score": 0,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "中性",
+    "score": 55,
+    "symbol": "300548",
+    "name": "长芯博创"
+  },
+  {
+    "stock_code": "300803",
+    "analysis_time": "2026-08-11 15:47:43",
+    "success": true,
+    "stock_name": "指南针",
+    "current_price": 84.14,
+    "realtime": {
+      "name": "指南针",
+      "open": 83.33,
+      "prev_close": 83.93,
+      "price": 84.14,
+      "high": 85.37,
+      "low": 82.97,
+      "volume": 13704661.0,
+      "amount": 1157865922.85,
+      "date": "2026-08-11",
+      "time": "15:35:00"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 84.14,
+      "predicted_price": 86.01,
+      "median_price": 85.87,
+      "predicted_return": 2.22,
+      "up_probability": 59.4,
+      "down_probability": 40.6,
+      "confidence": 18.7,
+      "upper_bound": 100.12,
+      "lower_bound": 73.19,
+      "support": 77.22,
+      "resistance": 95.28,
+      "factor_contributions": {
+        "趋势": 0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 3.7
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "看涨吞没",
+        "score": 3.0,
+        "description": "🟢 阳线包裹阴线，反转看涨"
+      },
+      {
+        "name": "下降旗形",
+        "score": -2.0,
+        "description": "🔴 反弹蓄势，看跌"
+      }
+    ],
+    "pattern_score": 0.5,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "看多",
+    "score": 54,
+    "symbol": "300803",
+    "name": "指南针"
+  },
+  {
+    "stock_code": "688432",
+    "analysis_time": "2026-08-11 15:47:44",
+    "success": true,
+    "stock_name": "有研硅",
+    "current_price": 40.2,
+    "realtime": {
+      "name": "有研硅",
+      "open": 40.32,
+      "prev_close": 41.74,
+      "price": 40.2,
+      "high": 43.23,
+      "low": 39.5,
+      "volume": 77328199.0,
+      "amount": 3154431051.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 40.2,
+      "predicted_price": 42.22,
+      "median_price": 42.05,
+      "predicted_return": 5.02,
+      "up_probability": 64.1,
+      "down_probability": 35.8,
+      "confidence": 28.3,
+      "upper_bound": 52.31,
+      "lower_bound": 33.43,
+      "support": 36.04,
+      "resistance": 48.75,
+      "factor_contributions": {
+        "趋势": 9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 5.3
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "射击之星",
+        "score": -2.5,
+        "description": "🔴 上影线长，回调风险"
+      },
+      {
+        "name": "十字星",
+        "score": -1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "V型底",
+        "score": 3.0,
+        "description": "🟢 V型反转，看涨"
+      }
+    ],
+    "pattern_score": -0.17,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": 0.1,
+    "signal_direction": "中性",
+    "score": 56,
+    "symbol": "688432",
+    "name": "有研硅"
+  },
+  {
+    "stock_code": "688110",
+    "analysis_time": "2026-08-11 15:47:45",
+    "success": true,
+    "stock_name": "东芯股份",
+    "current_price": 112.21,
+    "realtime": {
+      "name": "东芯股份",
+      "open": 112.01,
+      "prev_close": 113.28,
+      "price": 112.21,
+      "high": 114.77,
+      "low": 110.9,
+      "volume": 12242772.0,
+      "amount": 1382309219.0,
+      "date": "2026-08-11",
+      "time": "15:34:59"
+    },
+    "predict_days": 5,
+    "prediction": {
+      "current_price": 112.21,
+      "predicted_price": 109.6,
+      "median_price": 108.94,
+      "predicted_return": -2.33,
+      "up_probability": 41.9,
+      "down_probability": 58.0,
+      "confidence": 16.1,
+      "upper_bound": 141.99,
+      "lower_bound": 82.2,
+      "support": 90.07,
+      "resistance": 130.31,
+      "factor_contributions": {
+        "趋势": -9.0,
+        "RSI超买超卖": 0,
+        "MACD": 4.5,
+        "波动率": 6.4
+      },
+      "risk_level": "高"
+    },
+    "patterns": [
+      {
+        "name": "十字星",
+        "score": 1.0,
+        "description": "⚪ 多空博弈，趋势可能反转"
+      },
+      {
+        "name": "三连阴",
+        "score": -1.5,
+        "description": "🔴 空头强势"
+      }
+    ],
+    "pattern_score": -0.25,
+    "news_sentiment": 0,
+    "news_signals": [],
+    "recent_news": [],
+    "signal_score": -0.1,
+    "signal_direction": "看空",
+    "score": 47,
+    "symbol": "688110",
+    "name": "东芯股份"
+  }
+]
